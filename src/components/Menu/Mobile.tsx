@@ -3,6 +3,7 @@ import { useState } from "react";
 import { motion } from "motion/react";
 import type { Menu } from "../../@types/Menu";
 import { MenuOpt } from "./MenuOption";
+import { Theme } from "../../shared/Theme";
 
 interface MobileMenuProps extends Menu { }
 
@@ -21,20 +22,26 @@ export function MobileMenu(props: MobileMenuProps) {
 
   return (
     <>
-      {isMenuOpen ? (
+
+
+      <button onClick={openMenu} className="block" >
+        <TextAlignJustifyIcon className="block size-8 overflow-hidden" style={{
+          color: Theme.primary
+        }} />
+      </button>
+
+
+      {isMenuOpen && (
         <div
           className="block w-screen h-screen fixed top-0"
           onClick={closeMenu}
         ></div>
-      ) : (
-        <button onClick={openMenu}>
-          <TextAlignJustifyIcon size={40} />
-        </button>
       )}
 
+      {/* DRAWER */}
       <motion.nav
         initial={{
-          x: '-100%',
+          x: '-100vw',
         }}
         animate={{
           x: isMenuOpen ? 0 : '-100%',
@@ -43,6 +50,7 @@ export function MobileMenu(props: MobileMenuProps) {
         className={`
         fixed 
         top-0  
+        inset-x-0
         z-50
 
         h-screen 

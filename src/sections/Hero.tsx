@@ -8,8 +8,8 @@ export function HeroSection() {
     <section
       className="border h-screen"
       style={{
-        background: `url(${mobileBackground}) no-repeat center`,
-        backgroundSize: '100vw',
+        background: `url(${mobileBackground}) no-repeat top center`,
+        backgroundSize: 'cover',
       }}>
       <ContentArea>
         <Menu />

@@ -1,8 +1,12 @@
 import type { PropsWithChildren } from "react";
 
-export function ContentArea(props: PropsWithChildren) {
+interface ContentAreaProps extends PropsWithChildren {
+  tailwindCss?: string;
+}
+
+export function ContentArea(props: ContentAreaProps) {
   return (
-    <section>
+    <section className={`px-2 ${props.tailwindCss ?? ""}`}>
       {props.children}
     </section>
   );
