@@ -22,22 +22,21 @@ export function MobileMenu(props: MobileMenuProps) {
 
   return (
     <>
-      {isMenuOpen ?
-        (
-          //DISPOSER
-          <div
-            className="block w-screen h-screen fixed top-0"
-            onClick={closeMenu}
-          ></div>
-        ) : (
-          //OPENER
-          <button onClick={openMenu} className="block" >
-            <TextAlignJustifyIcon className="block size-8 overflow-hidden" style={{
-              color: Theme.primary
-            }} />
-          </button>
-        )
-      }
+
+      {/* OPENER */}
+      <button onClick={openMenu} className={`block ${isMenuOpen && 'opacity-0' }`} >
+        <TextAlignJustifyIcon className="block size-8 overflow-hidden" style={{
+          color: Theme.primary
+        }} />
+      </button>
+
+
+      {isMenuOpen && (
+        <div
+          className="block w-screen h-screen fixed top-0"
+          onClick={closeMenu}
+        ></div>
+      )}
 
       {/* DRAWER */}
       <motion.nav
