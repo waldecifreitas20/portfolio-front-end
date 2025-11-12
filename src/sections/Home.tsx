@@ -50,7 +50,7 @@ export function HomeSection() {
           </article>
 
           <article className="flex flex-col gap-4 my-8">
-            <Button selfLink>{hero.buttons.projects}</Button>
+            <Button>{hero.buttons.projects}</Button>
             <FlatButton>{hero.buttons.contact}</FlatButton>
           </article>
 
