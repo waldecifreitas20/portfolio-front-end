@@ -1,5 +1,5 @@
 import { ContentArea } from "../components/ContentArea";
-import mobileBackground from "../assets/bg-hero-mobile.svg";
+import mobileBackground from "../assets/bg-hero-mobile.jpg";
 import { Menu } from "../components/Menu";
 import { useLanguage } from "../hooks/useLanguage";
 import gitHubIcon from "../assets/github-white-icon.svg";
