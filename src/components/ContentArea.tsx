@@ -9,9 +9,12 @@ export function ContentArea(props: ContentAreaProps) {
     <section
       className={`
       px-2 ${props.tailwindCss ?? ""}
+      mx-auto
+
       md:py-8
       md:max-w-[800px]
-      mx-auto
+      
+      lg:max-w-[1000px]
       `}>
       {props.children}
     </section>

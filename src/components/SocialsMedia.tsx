@@ -8,7 +8,12 @@ const socials = [
 
 export function SocialsMedia() {
   return (
-    <article className="flex h-10 gap-2 w-fit mx-auto mb-4">
+    <article
+      className="
+      flex h-10 gap-2 w-fit mx-auto mb-4
+      lg:mx-0
+      lg:mr-auto
+      ">
       {socials.map(social => {
         return (
           <a
