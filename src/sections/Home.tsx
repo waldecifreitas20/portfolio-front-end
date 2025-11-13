@@ -7,6 +7,7 @@ import linkedinIcon from "../assets/linkedin-white-icon.svg";
 import { Theme } from "../shared/Theme";
 import { Button } from "../components/Button";
 import { FlatButton } from "../components/FlatButton";
+import { DesktopBackground } from "../components/DesktopBackground";
 
 export function HomeSection() {
   const { content } = useLanguage();
@@ -14,14 +15,14 @@ export function HomeSection() {
 
   return (
     <section
-      className="border h-screen"
+      className="h-screen w-full overflow-hidden relative"
       style={{
         background: `url(${mobileBackground}) no-repeat top center`,
         backgroundSize: 'cover',
       }}>
-      <ContentArea tailwindCss="py-2">
+      <DesktopBackground />
+      <ContentArea tailwindCss="py-2 relative z-10">
         <Menu />
-
         <section className="text-white font-bold text-center mt-20">
 
           <article className="flex h-10 gap-2 w-fit mx-auto mb-4">
@@ -49,7 +50,7 @@ export function HomeSection() {
             <p className="font-normal text-white/70">{hero.intro}</p>
           </article>
 
-          <article 
+          <article
             className="
             flex flex-col 
             gap-4 my-8 
