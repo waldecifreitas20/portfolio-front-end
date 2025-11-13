@@ -1,9 +1,9 @@
 import { ContentArea } from "../../components/ContentArea";
 import { Header } from "./Header";
 import { DesktopBackground } from "../../components/DesktopBackground";
-import mobileBackground from "../assets/bg-hero-mobile.jpg";
+import mobileBackground from "../../assets/bg-hero-mobile.jpg";
 import { HeroText } from "./HeroText";
-import heroBanner from "../assets/hero-laptop.png";
+import heroBanner from "../../assets/hero-laptop.png";
 
 export function HomeSection() {
   return (

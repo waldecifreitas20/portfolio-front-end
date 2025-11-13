@@ -8,10 +8,11 @@ export function ContentArea(props: ContentAreaProps) {
   return (
     <section
       className={`
-      px-2 ${props.tailwindCss ?? ""}
+      ${props.tailwindCss ?? "md:py-8"}
+      px-4 
       mx-auto
-
-      md:py-8
+      
+      
       md:max-w-[800px]
       
       lg:max-w-[1000px]

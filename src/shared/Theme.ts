@@ -4,6 +4,7 @@ export const Theme = {
   accent: '#FF6978',
   background: {
     bgDark: '#150423',
+    bgLight: '#220E2C',
     bgDarker: '#140F14',
     bgDarkTransparent: '#220E2C',
     card: '#220E2C',
