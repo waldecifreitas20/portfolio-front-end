@@ -30,9 +30,16 @@
   "hero": {
     "title": "Desenvolvedor Web",
     "intro": "Soluções de software com foco na experiência do usuário. Aberto a oportunidades como freelancer.",
-    "buttons" : {
-      "projects" : "Ver Projetos",
-      "contact" : "Fale Comigo"
+    "buttons": {
+      "projects": "Ver Projetos",
+      "contact": "Fale Comigo"
     }
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "text": [
+      "Sou desenvolvedor web formado em Sistemas de Informação pela Universidade Federal do Pará, e desde que escrevi minhas primeiras linhas de código, descobri que a tecnologia é muito mais do que apenas ferramentas e linguagens, é uma forma de transformar ideias em soluções reais. Sou movido por desafios e pelo prazer de construir produtos digitais que facilitem a vida das pessoas. Acredito que um bom software vai além do código bem escrito: ele precisa entregar valor, proporcionar uma boa experiência ao usuário e gerar resultados concretos para quem o utiliza.",
+      "No meu dia a dia, busco sempre unir técnica, criatividade e empatia. Tenho um olhar voltado para o cliente e o usuário final, procurando entender suas dores e transformar essas necessidades em soluções eficientes e escaláveis. Sou proativo, focado e dedicado em tudo o que faço. Amo programar, aprender novas tecnologias e mergulhar em problemas complexos até encontrar a melhor resposta. Para mim, cada projeto é uma oportunidade de evoluir, tanto como profissional quanto como pessoa, e de deixar uma marca positiva por meio da tecnologia."
+    ]
   }
 }

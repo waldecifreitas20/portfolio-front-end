@@ -34,5 +34,16 @@
       "projects": "See Projects",
       "contact": "Let's Talk!"
     }
+  },
+  "about": {
+    "title": "About Me",
+    "text": [
+      "I’m a web developer with a degree in Information Systems from the Federal University of Pará. Since writing my first lines of code, I discovered that technology is much more than just tools and programming languages, it’s a way to turn ideas into real solutions. I am driven by challenges and by the joy of building digital products that make people’s lives easier. I believe that good software goes beyond clean code: it must deliver value, provide a great user experience, and generate tangible results for those who use it.",
+      "In my daily work, I strive to combine technical skill, creativity, and empathy. I have a strong focus on both the client and the end user, always seeking to understand their pain points and turn those needs into efficient and scalable solutions. I am proactive, focused, and dedicated in everything I do. I love programming, learning new technologies, and diving deep into complex problems until I find the best solution. To me, every project is an opportunity to grow, both as a professional and as a person."
+    ]
+  },
+
+  "skills" : {
+    "title": "Skills & Technologies"
   }
 }

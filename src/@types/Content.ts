@@ -1,4 +1,6 @@
 import type { MenuOption } from "./MenuOption"
+import type { Project } from "./Project"
+import type { Technology } from "./Tecnology"
 
 export type Content = {
   menu: {
@@ -11,5 +13,17 @@ export type Content = {
       projects: string,
       contact: string
     }
+  },
+  about: {
+    title: string,
+    text: Array<string>
+  },
+  skills: {
+    title: string,
+    technologies: Array<Technology>
+  },
+  portfolio: {
+    title: string,
+    projects: Array<Project>
   }
 }
