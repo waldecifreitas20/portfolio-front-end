@@ -8,6 +8,7 @@ export function FlatButton(props: FlatButtonProps) {
     <button
       {...props}
       className="
+      cursor-pointer
       border border-white/50 text-white/80
       py-4 px-4 
       block 

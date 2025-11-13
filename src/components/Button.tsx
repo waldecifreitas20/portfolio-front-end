@@ -16,7 +16,7 @@ export function Button(props: ButtonProps) {
       whileHover={{
         background: `linear-gradient(-90deg, ${Theme.accent} , ${Theme.primary} 0%)`,
       }}
-      className="p-4 block w-full shadow-md rounded-md font-normal"
+      className="p-4 block w-full shadow-md rounded-md font-normal cursor-pointer"
 
     >{props.children}</motion.button>
   );
