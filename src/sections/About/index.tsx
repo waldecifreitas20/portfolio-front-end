@@ -8,7 +8,7 @@ export function About() {
   const { about } = content;
 
   return (
-    <section className="text-white/70" style={{
+    <section className="text-white/70 py-10" style={{
       backgroundColor: Theme.background.bgLight
     }}>
       <ContentArea>
