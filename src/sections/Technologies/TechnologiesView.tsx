@@ -22,19 +22,13 @@ export function TechnologiesView() {
       .fetchData()
       .then(data => {
         const { technologies } = data;
-        const { backend, frontend } = splitTechs(technologies as Array<Technology>);
+        const backend = technologies.filter(tech => tech.isBackend);
+        const frontend = technologies.filter(tech => !tech.isBackend);
 
         setTechs({ backend, frontend });
       });
   }, []);
 
-
-  function splitTechs(_techs: Array<Technology>) {
-    return {
-      backend: _techs.filter(tech => tech.isBackend),
-      frontend: _techs.filter(tech => !tech.isBackend)
-    };
-  }
 
   function handleTabClick(tabId: tabs) {
     setActiveTab(tabId);
