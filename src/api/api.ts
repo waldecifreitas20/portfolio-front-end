@@ -1,4 +1,4 @@
-import type { Technology } from "../@types/Tecnology";
+import type { Technology } from "../@types/Technology";
 
 
 type Data = { technologies: Array<Technology> };

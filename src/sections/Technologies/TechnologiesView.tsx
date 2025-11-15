@@ -3,7 +3,7 @@ import { Theme } from "../../shared/Theme";
 import { Tab } from "./Tab";
 import { Api } from "../../api/api";
 import { TechViewItem } from "./TechViewItem";
-import type { Technology } from "../../@types/Tecnology";
+import type { Technology } from "../../@types/Technology";
 
 enum tabs {
   frontend, backend
@@ -11,19 +11,37 @@ enum tabs {
 
 export function TechnologiesView() {
   const [activeTab, setActiveTab] = useState(tabs.frontend);
-  const [techs, setTechs] = useState<Array<Technology>>([]);
+  const [techs, setTechs] = useState({
+    backend: [] as Array<Technology>,
+    frontend: [] as Array<Technology>,
+  });
+
 
   useEffect(() => {
     Api
       .fetchData()
       .then(data => {
-        setTechs(data.technologies as Array<Technology>);
+        const { technologies } = data;
+        const { backend, frontend } = splitTechs(technologies as Array<Technology>);
+
+        setTechs({ backend, frontend });
       });
   }, []);
 
 
-  function handleTabClick(tabId: number) {
+  function splitTechs(_techs: Array<Technology>) {
+    return {
+      backend: _techs.filter(tech => tech.isBackend),
+      frontend: _techs.filter(tech => !tech.isBackend)
+    };
+  }
+
+  function handleTabClick(tabId: tabs) {
     setActiveTab(tabId);
+  }
+
+  function getSelectedTechs() {
+    return activeTab === tabs.frontend ? techs.frontend : techs.backend;
   }
 
   return (
@@ -47,7 +65,7 @@ export function TechnologiesView() {
       </article>
 
       <ul>
-        {techs.map(tech => {
+        {getSelectedTechs().map(tech => {
           return <TechViewItem tech={tech} />
         })}
       </ul>

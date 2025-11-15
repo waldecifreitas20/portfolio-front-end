@@ -1,5 +1,5 @@
 import type { Skill } from "./Skill";
-import type { Technology } from "./Tecnology";
+import type { Technology } from "./Technology";
 
 export type Project = {
   id: any,
