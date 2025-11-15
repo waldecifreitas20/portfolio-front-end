@@ -12,7 +12,7 @@ export function Tab(props: TabProps) {
       className={`
         ${props.isActive ? 'border-b text-white' : 'text-white/50'} 
         flex gap-1
-        font-bold text-lg 
+        font-bold text-xl
         cursor-pointer
         px-2 pb-1
       `}

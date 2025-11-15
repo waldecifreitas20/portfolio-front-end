@@ -41,7 +41,7 @@ export function TechnologiesView() {
   return (
     <div>
       {/*controlers */}
-      <article className="flex">
+      <article className="flex mb-4">
         <Tab
           id={tabs.frontend}
           activeColor={Theme.accent}

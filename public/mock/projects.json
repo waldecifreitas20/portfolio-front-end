@@ -1,0 +1,397 @@
+{
+  "projects": [
+    {
+      "id": "",
+      "name": "Tasky",
+      "previewUrl": "/mock/projectpreview.png",
+      "category": "Gerenciador",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae sapien vel augue commodo interdum. Curabitur nec urna id libero feugiat facilisis.",
+      "repository": "",
+      "deploy": "",
+      "technologies": [
+        [
+          {
+            "name": "React.js",
+            "color": "blue",
+            "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
+            "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+            "isBackend": false,
+            "skills": [
+              {
+                "id": "skil0wr",
+                "name": "Gerenciamento de Estados"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Manipulação do DOM"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Uso de Hooks"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Integração com API"
+              }
+            ]
+          },
+          {
+            "name": "Typescript",
+            "color": "blue",
+            "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
+            "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+            "isBackend": false,
+            "skills": [
+              {
+                "id": "skil0wr",
+                "name": "Gerenciamento de Estados"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Manipulação do DOM"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Uso de Hooks"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Integração com API"
+              }
+            ]
+          },
+          {
+            "name": "Express.js",
+            "color": "gray",
+            "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
+            "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+            "isBackend": true,
+            "skills": [
+              {
+                "id": "skil0wr",
+                "name": "Gerenciamento de Estados"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Manipulação do DOM"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Uso de Hooks"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Integração com API"
+              }
+            ]
+          },
+          {
+            "name": "NodeJs",
+            "color": "green",
+            "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
+            "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+            "isBackend": true,
+            "skills": [
+              {
+                "id": "skil0wr",
+                "name": "Gerenciamento de Estados"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Manipulação do DOM"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Uso de Hooks"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Integração com API"
+              }
+            ]
+          }
+        ]
+      ],
+      "usedSkills": [
+        {
+          "id": "skil0wr",
+          "name": "Gerenciamento de Estados"
+        },
+        {
+          "id": "skil0wr",
+          "name": "Manipulação do DOM"
+        },
+        {
+          "id": "skil0wr",
+          "name": "Uso de Hooks"
+        },
+        {
+          "id": "skil0wr",
+          "name": "Integração com API"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "Makeshop",
+      "previewUrl": "/mock/projectpreview.png",
+      "category": "E-commerce",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae sapien vel augue commodo interdum. Curabitur nec urna id libero feugiat facilisis.",
+      "repository": "",
+      "deploy": "",
+      "technologies": [
+        [
+          {
+            "name": "React.js",
+            "color": "blue",
+            "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
+            "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+            "isBackend": false,
+            "skills": [
+              {
+                "id": "skil0wr",
+                "name": "Gerenciamento de Estados"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Manipulação do DOM"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Uso de Hooks"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Integração com API"
+              }
+            ]
+          },
+          {
+            "name": "Typescript",
+            "color": "blue",
+            "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
+            "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+            "isBackend": false,
+            "skills": [
+              {
+                "id": "skil0wr",
+                "name": "Gerenciamento de Estados"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Manipulação do DOM"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Uso de Hooks"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Integração com API"
+              }
+            ]
+          },
+          {
+            "name": "Express.js",
+            "color": "gray",
+            "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
+            "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+            "isBackend": true,
+            "skills": [
+              {
+                "id": "skil0wr",
+                "name": "Gerenciamento de Estados"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Manipulação do DOM"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Uso de Hooks"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Integração com API"
+              }
+            ]
+          },
+          {
+            "name": "NodeJs",
+            "color": "green",
+            "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
+            "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+            "isBackend": true,
+            "skills": [
+              {
+                "id": "skil0wr",
+                "name": "Gerenciamento de Estados"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Manipulação do DOM"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Uso de Hooks"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Integração com API"
+              }
+            ]
+          }
+        ]
+      ],
+      "usedSkills": [
+        {
+          "id": "skil0wr",
+          "name": "Gerenciamento de Estados"
+        },
+        {
+          "id": "skil0wr",
+          "name": "Manipulação do DOM"
+        },
+        {
+          "id": "skil0wr",
+          "name": "Uso de Hooks"
+        },
+        {
+          "id": "skil0wr",
+          "name": "Integração com API"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "Makeshop",
+      "previewUrl": "/mock/projectpreview.png",
+      "category": "Web Player",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae sapien vel augue commodo interdum. Curabitur nec urna id libero feugiat facilisis.",
+      "repository": "",
+      "deploy": "",
+      "technologies": [
+        [
+          {
+            "name": "React.js",
+            "color": "blue",
+            "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
+            "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+            "isBackend": false,
+            "skills": [
+              {
+                "id": "skil0wr",
+                "name": "Gerenciamento de Estados"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Manipulação do DOM"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Uso de Hooks"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Integração com API"
+              }
+            ]
+          },
+          {
+            "name": "Typescript",
+            "color": "blue",
+            "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
+            "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+            "isBackend": false,
+            "skills": [
+              {
+                "id": "skil0wr",
+                "name": "Gerenciamento de Estados"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Manipulação do DOM"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Uso de Hooks"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Integração com API"
+              }
+            ]
+          },
+          {
+            "name": "Express.js",
+            "color": "gray",
+            "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
+            "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+            "isBackend": true,
+            "skills": [
+              {
+                "id": "skil0wr",
+                "name": "Gerenciamento de Estados"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Manipulação do DOM"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Uso de Hooks"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Integração com API"
+              }
+            ]
+          },
+          {
+            "name": "NodeJs",
+            "color": "green",
+            "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
+            "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+            "isBackend": true,
+            "skills": [
+              {
+                "id": "skil0wr",
+                "name": "Gerenciamento de Estados"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Manipulação do DOM"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Uso de Hooks"
+              },
+              {
+                "id": "skil0wr",
+                "name": "Integração com API"
+              }
+            ]
+          }
+        ]
+      ],
+      "usedSkills": [
+        {
+          "id": "skil0wr",
+          "name": "Gerenciamento de Estados"
+        },
+        {
+          "id": "skil0wr",
+          "name": "Manipulação do DOM"
+        },
+        {
+          "id": "skil0wr",
+          "name": "Uso de Hooks"
+        },
+        {
+          "id": "skil0wr",
+          "name": "Integração com API"
+        }
+      ]
+    }
+  ]
+}
