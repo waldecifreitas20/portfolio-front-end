@@ -1,13 +1,24 @@
-import type { Technology } from "../@types/Technology";
+import type { Project } from '../@types/Project';
+import { type Technology } from './../@types/Technology';
 
+type ApiResponse<T> = (data: Array<T>) => void;
 
-type Data = { technologies: Array<Technology> };
+async function api(url: string) {
+  return await fetch(url)
+    .then(res => res.json());
+}
 
-async function fetchData(): Promise<Data> {
-  const response = await fetch('/mock/technologies.json')
-  return response.json();
+async function fetchTechnologies(callback: ApiResponse<Technology>) {
+  const data = await api('/mock/technologies.json');
+  callback(data.technologies);
+}
+
+async function fetchProjects(callback: ApiResponse<Project>) {
+  const data = await api('/mock/projects.json');
+  callback(data.projects);
 }
 
 export const Api = {
-  fetchData
+  fetchTechnologies,
+  fetchProjects,
 }

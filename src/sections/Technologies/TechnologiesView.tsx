@@ -19,9 +19,7 @@ export function TechnologiesView() {
 
   useEffect(() => {
     Api
-      .fetchData()
-      .then(data => {
-        const { technologies } = data;
+      .fetchTechnologies(technologies => {
         const backend = technologies.filter(tech => tech.isBackend);
         const frontend = technologies.filter(tech => !tech.isBackend);
 
@@ -40,7 +38,6 @@ export function TechnologiesView() {
 
   return (
     <div>
-      {/*controlers */}
       <article className="flex mb-4">
         <Tab
           id={tabs.frontend}
