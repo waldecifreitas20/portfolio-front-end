@@ -26,17 +26,14 @@ export function ProjectProvider(props: PropsWithChildren) {
   }
 
   function getProjectsByTech(tech: Technology) {
-    const projectsWithTech = [];
 
-    for (const project of projects) {
-      for (const projTech of project.technologies) {
-        if (projTech.name == tech.name) {
-
-          projectsWithTech.push(project);
-        }
-      }
-    }
-    return projectsWithTech;
+    return projects.filter(project => {
+      return project
+        .technologies
+        .some(technology => {
+          return technology.name === tech.name;
+        });
+    });
   }
 
 
