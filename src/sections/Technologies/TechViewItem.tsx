@@ -2,7 +2,7 @@ import { useContext } from "react";
 import type { Technology } from "../../@types/Technology";
 import { Theme } from "../../shared/Theme";
 import { ProgressBar } from "./ProgressBar";
-import { ProjectsContext } from "../../providers/TechnologyProvider";
+import { ProjectsContext } from "../../providers/ProjectProvider";
 
 interface TechViewItemProps {
   tech: Technology,
@@ -17,7 +17,7 @@ export function TechViewItem(props: TechViewItemProps) {
 
   function calculatePercentOfUse() {
     const totalProjects = projectProvider.getTotal();
-    const appearances = projectProvider.getProjectsByTech(tech).length;
+    const appearances = projectProvider.getAllByTech(tech).length;
 
     return Math.round(appearances / totalProjects * 100);
   }
