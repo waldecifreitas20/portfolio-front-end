@@ -18,7 +18,7 @@ export function TechViewItem(props: TechViewItemProps) {
     const totalProjects = projectProvider.getTotal();
     const appearances = projectProvider.getProjectsByTech(tech).length;
 
-    return appearances / totalProjects * 100;
+    return Math.round(appearances / totalProjects * 100);
   }
 
 
@@ -29,15 +29,15 @@ export function TechViewItem(props: TechViewItemProps) {
       cursor-pointer
       block w-full 
       hover:bg-white/10 hover:px-4 pt-4 pb-2
-      active:scale-95
+      active:scale-[0.98]
       rounded-lg
-      transition-all duration-300
+      transition-all duration-300 select-none
       ">
-      <div className="flex gap-4 mb-2">
+      <div className="flex w-full gap-5 mb-2 ">
         <img className="size-10" src={tech.iconUrl} alt={tech.name} />
-        <p className="text-white text-lg select-none">{tech.name}</p>
+        <p className="text-white text-lg">{tech.name}</p>
 
-        <p>{percentOfUse}%</p>
+        <p className="text-white/50 text-xs ml-auto">{percentOfUse}%</p>
       </div>
 
       <ProgressBar
