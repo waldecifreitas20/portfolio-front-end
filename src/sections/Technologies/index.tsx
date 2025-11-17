@@ -4,7 +4,7 @@ import { ContentArea } from "../../components/ContentArea";
 import { SectionTitle } from "../../components/SectionTitle";
 import { useLanguage } from "../../hooks/useLanguage";
 import { Theme } from "../../shared/Theme";
-import { TechnologiesView } from "./TechnologiesView";
+import { TechnologiesView } from "./TechnologiesView/TechnologiesView";
 import { TechnologyDetails } from "./TechDetails";
 
 export function TechnologiesSection() {

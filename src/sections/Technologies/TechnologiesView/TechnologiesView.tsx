@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import { Theme } from "../../shared/Theme";
+import { Theme } from "../../../shared/Theme";
 import { Tab } from "./Tab";
-import { Api } from "../../api/api";
+import { Api } from "../../../api/api";
 import { TechViewItem } from "./TechViewItem";
-import type { Technology } from "../../@types/Technology";
+import type { Technology } from "../../../@types/Technology";
 
 enum tabs {
   frontend, backend
