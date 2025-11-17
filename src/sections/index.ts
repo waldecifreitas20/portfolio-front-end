@@ -1,9 +1,9 @@
 import { About } from "./About";
 import { HomeSection } from "./Home";
-import { Technologies } from "./Technologies";
+import { TechnologiesSection } from "./Technologies";
 
 export {
   About,
   HomeSection,
-  Technologies,
+  TechnologiesSection,
 };
