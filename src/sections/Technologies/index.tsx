@@ -10,7 +10,7 @@ import { ColoredLabel } from "../../components/ColoredLabel";
 import { ProjectsContext } from "../../providers/ProjectProvider";
 
 export function Technologies() {
-  const { title } = useLanguage().content.tech;
+  const { title, details } = useLanguage().content.tech;
   const [selectedTech, setSelectedTech] = useState<Technology>();
 
   const projects = useContext(ProjectsContext);
@@ -51,21 +51,19 @@ export function Technologies() {
                 <ColoredLabel
                   isBackend={selectedTech.isBackend}
                   textSize="text-base">
-                  Habilidades
+                  {details.skills}
                 </ColoredLabel>
                 <List items={selectedTech.skills} />
               </div>
 
-              <div>
+              <div className="mt-4">
                 <ColoredLabel
                   isBackend={selectedTech.isBackend}
                   textSize="text-base">
-                  Projetos
+                  {details.projects}
                 </ColoredLabel>
                 <List items={projects.getAllByTech(selectedTech)} />
               </div>
-
-
 
             </article>
           )}

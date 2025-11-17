@@ -17,5 +17,11 @@ export type StaticContent = {
     title: string,
     text: Array<string>
   },
-  tech: { title: string }
+  tech: {
+    title: string,
+    details: {
+      skills: string,
+      projects: string
+    }
+  }
 }

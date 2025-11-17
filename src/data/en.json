@@ -39,10 +39,14 @@
     "title": "About Me",
     "text": [
       "I am a Web Developer with a degree in Information Systems from the Federal University of Pará. In my daily work, I mainly use React, JavaScript, and TypeScript to build modern and dynamic interfaces. On the server side, I work with Node.js and frameworks such as NestJS and Express, which help me structure solid and well-organized systems. To handle databases, I have experience with PostgreSQL and MySQL, and in my development workflow I use Git and Vite to keep everything agile and well organized. The technologies above represent what is most present in my work today. Even so, I am always studying and exploring new tools to continue evolving as a professional.",
-
       "Since I wrote my first lines of code, I discovered that technology, for me, is a way to transform ideas into real experiences. I enjoy creating simple, functional, and well-structured interfaces, always thinking about the best way for each person to interact with what’s on the screen. I work with a focus on building fast, responsive, and easy-to-use applications, whether for personal or professional projects."
     ]
   },
-
-  "tech": { "title": "Technologies" }
+  "tech": {
+    "title": "Technologies",
+    "details": {
+      "skills": "Skills",
+      "projects": "Projects"
+    }
+  }
 }

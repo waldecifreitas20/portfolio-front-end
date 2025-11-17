@@ -39,10 +39,14 @@
     "title": "Quem Sou Eu?",
     "text": [
       "Sou Desenvolvedor Web formado em Sistemas de Informação pela Universidade Federal do Pará. No dia a dia, utilizo principalmente React, JavaScript e TypeScript para desenvolver interfaces modernas e dinâmicas. No lado do servidor, trabalho com Node.js e frameworks como NestJS e Express, que me ajudam a estruturar sistemas sólidos e organizados.Para lidar com bancos de dados, tenho experiência com PostgreSQL e MySQL, e no fluxo de desenvolvimento utilizo Git e Vite para manter tudo ágil e bem organizado. As tecnologias acima representam o que mais faz parte do meu trabalho hoje. Mesmo assim, estou sempre estudando e explorando novas ferramentas para continuar evoluindo como profissional.",
-
       "Desde que escrevi minhas primeiras linhas de código, descobri que a tecnologia é, para mim, uma forma de transformar ideias em experiências reais. Gosto de criar interfaces simples, funcionais e bem estruturadas, sempre pensando na melhor forma de cada pessoa interagir com o que está na tela. Trabalho com foco em construir aplicações rápidas, responsivas e fáceis de usar, seja para projetos pessoais ou profissionais."
     ]
   },
-
-  "tech": { "title": "Tecnologias" }
+  "tech": {
+    "title": "Tecnologias",
+    "details": {
+      "skills": "Habilidades",
+      "projects": "Projetos"
+    }
+  }
 }
