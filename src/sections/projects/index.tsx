@@ -12,12 +12,8 @@ export function ProjectsSection() {
 
   return (
     <section
-      className="h-screen w-screen block"
-      style={{
-        background: `url(${isMobile ? mobileBg : desktopBg}) no-repeat`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'top center'
-      }}
+      className="h-screen w-screen block bg-cover bg-top bg-no-repeat"
+      style={{ background: `url(${isMobile ? mobileBg : desktopBg})` }}
     >
 
       <ContentArea>

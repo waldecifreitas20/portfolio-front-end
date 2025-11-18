@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Theme } from "../../../shared/Theme";
 import { Tab } from "./Tab";
 import { Api } from "../../../api/api";
 import { TechViewItem } from "./TechViewItem";
@@ -45,14 +44,14 @@ export function TechnologiesView(props: TechnologiesViewProps) {
       <article className="flex mb-4">
         <Tab
           id={tabs.frontend}
-          activeColor={Theme.accent}
+          activeColor={'var(--accent)'}
           isActive={activeTab === tabs.frontend}
           text="Front-end"
           onClick={handleTabClick}
         />
         <Tab
           id={tabs.backend}
-          activeColor={Theme.primary}
+          activeColor={'var(--primary)'}
           isActive={activeTab === tabs.backend}
           text="Back-end"
           onClick={handleTabClick}

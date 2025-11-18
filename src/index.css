@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+:root {
+  --primary: #A42CD6;
+  --primaryHover: #9600D4;
+  --accent: #FF6978;
+
+  --bg-dark: #150423;
+  --bg-darker: #140F14;
+  --bg-light: #220E2C;
+  --bg-dark-transparent: #220E2C;
+  --bg-card: #220E2C;
+
+  --dimmed: #D9D9D9;
+  --title: #E7E7E7;
+}

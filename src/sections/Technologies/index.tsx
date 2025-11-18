@@ -3,7 +3,6 @@ import type { Technology } from "../../@types/Technology";
 import { ContentArea } from "../../components/ContentArea";
 import { SectionTitle } from "../../components/SectionTitle";
 import { useLanguage } from "../../hooks/useLanguage";
-import { Theme } from "../../shared/Theme";
 import { TechnologiesView } from "./TechnologiesView/TechnologiesView";
 import { TechnologyDetails } from "./TechDetails";
 
@@ -17,12 +16,7 @@ export function TechnologiesSection() {
 
   return (
     <section
-      className="pt-10 pb-20"
-      style={{
-        background: `linear-gradient(
-        ${Theme.background.bgDark}, 
-        ${Theme.background.bgDarker})`
-      }}>
+      className="pt-10 pb-20 bg-linear-to-b from-[var(--bg-dark)] to-[var(--bg-darker)]">
       <ContentArea>
         <SectionTitle text={title} />
         <div className="md:flex gap-4">

@@ -3,7 +3,7 @@ import { useState } from "react";
 import { motion } from "motion/react";
 import type { Menu } from "../../../@types/Menu";
 import { MenuOpt } from "./MenuOption";
-import { Theme } from "../../../shared/Theme";
+
 
 interface MobileMenuProps extends Menu { }
 
@@ -25,9 +25,7 @@ export function MobileMenu(props: MobileMenuProps) {
 
       {/* OPENER */}
       <button onClick={openMenu} className={`block ${isMenuOpen && 'opacity-0'}`} >
-        <TextAlignJustifyIcon className="block size-8 overflow-hidden" style={{
-          color: Theme.primary
-        }} />
+        <TextAlignJustifyIcon className="block size-8 overflow-hidden text-(var(--primary))" />
       </button>
 
 

@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import type { Technology } from "../../../@types/Technology";
-import { Theme } from "../../../shared/Theme";
 import { ProgressBar } from "./ProgressBar";
 import { ProjectsContext } from "../../../providers/ProjectProvider";
 
@@ -23,7 +22,7 @@ export function TechViewItem(props: TechViewItemProps) {
   }
 
   function getThemeColor() {
-    return tech.isBackend ? Theme.primary : Theme.accent;
+    return tech.isBackend ? 'var(--primary)' : 'var(--accent)';
   }
 
   return (

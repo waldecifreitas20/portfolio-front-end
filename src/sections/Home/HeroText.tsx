@@ -2,7 +2,6 @@ import { Button } from "../../components/Button";
 import { FlatButton } from "../../components/FlatButton";
 import { SocialsMedia } from "../../components/SocialsMedia";
 import { useLanguage } from "../../hooks/useLanguage";
-import { Theme } from "../../shared/Theme";
 
 export function HeroText() {
   const { content } = useLanguage();
@@ -20,9 +19,7 @@ export function HeroText() {
       <SocialsMedia />
 
       <article>
-        <p className="text-2xl" style={{
-          color: Theme.accent
-        }}>{hero.title}</p>
+        <p className="text-2xl text-[var(--title)]" >{hero.title}</p>
         <h1 className="text-5xl mt-2 mb-4">Waldeci Freitas</h1>
         <p className="font-normal text-white/70">{hero.intro}</p>
       </article>

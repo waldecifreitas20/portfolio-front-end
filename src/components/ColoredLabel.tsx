@@ -1,5 +1,4 @@
 import type { PropsWithChildren } from "react";
-import { Theme } from "../shared/Theme";
 
 interface ColoredLabelProps extends PropsWithChildren {
   isBackend?: boolean;
@@ -7,11 +6,11 @@ interface ColoredLabelProps extends PropsWithChildren {
 }
 
 export function ColoredLabel(props: ColoredLabelProps) {
+  const textColor = `var(${props.isBackend ? '--primary' : '--accent'})`;
+
   return (
     <label className={`flex gap-1 text-white font-bold ${props.textSize}`}>
-      <span style={{
-        color: props.isBackend ? Theme.primary : Theme.accent
-      }}>#</span>
+      <span style={{ color: textColor }}>#</span>
       {props.children}
     </label>
   );

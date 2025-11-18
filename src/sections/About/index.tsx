@@ -1,16 +1,12 @@
 import { ContentArea } from "../../components/ContentArea";
 import { SectionTitle } from "../../components/SectionTitle";
 import { useLanguage } from "../../hooks/useLanguage";
-import { Theme } from "../../shared/Theme";
-
 export function About() {
   const { content } = useLanguage();
   const { about } = content;
 
   return (
-    <section className="text-white/70 py-10" style={{
-      backgroundColor: Theme.background.bgLight
-    }}>
+    <section className="text-white/70 py-10 bg-[var(--bg-light)]">
       <ContentArea>
         <SectionTitle text={about.title} />
 
