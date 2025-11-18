@@ -48,5 +48,14 @@
       "skills": "Habilidades",
       "projects": "Projetos"
     }
+  },
+  "projects": {
+    "title": "Projetos",
+    "buttons": {
+      "close": "Fechar",
+      "repository": "Código-Fonte",
+      "deploy": "Ver Site"
+    },
+    "concepts": "Conceitos Empregados"
   }
 }

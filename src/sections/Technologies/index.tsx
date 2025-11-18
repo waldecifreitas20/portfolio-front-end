@@ -17,7 +17,7 @@ export function TechnologiesSection() {
 
   return (
     <section
-      className="py-10"
+      className="pt-10 pb-20"
       style={{
         background: `linear-gradient(
         ${Theme.background.bgDark}, 

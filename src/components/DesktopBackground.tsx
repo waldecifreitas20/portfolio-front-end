@@ -1,12 +1,12 @@
-import { useEffect, useRef, useState } from "react";
-import { useMediaQuery } from "react-responsive";
+import { useEffect, useState } from "react";
+import { useBreakpoint } from "../hooks/useBreakpoint";
 
 export function DesktopBackground() {
-  const isMobile = useMediaQuery({ query: '(max-width: 998px)' });
+  const { isMobile } = useBreakpoint();
   const [video, setVideo] = useState('');
 
   useEffect(() => {
-    if (!isMobile) {
+    if (!isMobile && video === '') {
       import('../assets/bg-hero-desktop.mp4')
         .then(video => setVideo(video.default));
     }

@@ -1,12 +1,12 @@
-import { useMediaQuery } from "react-responsive";
 import { MobileMenu } from "./Mobile";
 import { LanguageMode } from "./LanguageMode";
 import { useLanguage } from "../../../hooks/useLanguage";
 import { DesktopMenu } from "./DesktopMenu";
+import { useBreakpoint } from "../../../hooks/useBreakpoint";
 
 
 export function Header() {
-  const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
+  const { isMobile } = useBreakpoint(767);
   const { content } = useLanguage();
 
   return (

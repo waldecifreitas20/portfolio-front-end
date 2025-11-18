@@ -23,5 +23,15 @@ export type StaticContent = {
       skills: string,
       projects: string
     }
+  },
+
+  projects: {
+    title: string,
+    buttons: {
+      close: string,
+      repository: string,
+      deploy: string,
+    },
+    concepts : string,
   }
 }

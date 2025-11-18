@@ -1,4 +1,10 @@
-import { About, HomeSection, TechnologiesSection } from "./sections";
+import {
+  About,
+  HomeSection,
+  TechnologiesSection,
+  ProjectsSection
+
+} from "./sections";
 
 function App() {
 
@@ -7,6 +13,7 @@ function App() {
       <HomeSection />
       <About />
       <TechnologiesSection />
+      <ProjectsSection />
     </>
   )
 }

@@ -48,5 +48,14 @@
       "skills": "Skills",
       "projects": "Projects"
     }
+  },
+  "projects": {
+    "title": "Projects",
+    "buttons": {
+      "close": "Close",
+      "repository": "Source-Code",
+      "deploy": "See website"
+    },
+    "concepts": "Used Concepts"
   }
 }
