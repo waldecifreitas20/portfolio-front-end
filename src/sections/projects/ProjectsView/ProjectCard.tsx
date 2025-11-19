@@ -14,9 +14,9 @@ export function ProjectCard(props: ProjectCardProps) {
   return (
     <div
       className={`
+        relative z-0
         p-4 
         bg-(--bg-card)
-        cursor-pointer
         border 
         rounded-xl
         border-(--primary)/20
@@ -29,7 +29,9 @@ export function ProjectCard(props: ProjectCardProps) {
         sm:max-w-[400px]
         
         `}>
-      <div
+      <a
+        href={project.deploy}
+        target="_blank"
         className="
         w-full h-50 
         relative rounded-lg 
@@ -43,10 +45,11 @@ export function ProjectCard(props: ProjectCardProps) {
           absolute inset-0 
           group-hover/card:flex
           bg-black/80
+          z-30
           ">
           <Play size={50} color="#a42cd6" absoluteStrokeWidth />
         </div>
-      </div>
+      </a>
 
       <div className="flex mt-4 text-white justify-between">
         <span>
@@ -57,12 +60,12 @@ export function ProjectCard(props: ProjectCardProps) {
         <button
           className="
           cursor-pointer
-          bg-(--primary) hover:bg-(--primary)/80 
+          bg-(--primary) hover:bg-(--primary-hover) 
           h-fit 
           px-6 py-2 
           rounded-md
         ">{details}</button>
       </div>
-    </div >
+    </div>
   );
 }
