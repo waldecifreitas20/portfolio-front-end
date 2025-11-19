@@ -54,7 +54,8 @@
     "buttons": {
       "close": "Close",
       "repository": "Source-Code",
-      "deploy": "See website"
+      "deploy": "See website",
+      "details": "Ver Mais"
     },
     "concepts": "Used Concepts"
   }

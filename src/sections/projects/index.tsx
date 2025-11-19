@@ -12,7 +12,7 @@ export function ProjectsSection() {
 
   return (
     <section
-      className="h-screen w-screen block bg-cover bg-top bg-no-repeat"
+      className="min-h-screen w-screen block bg-cover bg-top bg-no-repeat"
       style={{ background: `url(${isMobile ? mobileBg : desktopBg})` }}
     >
 

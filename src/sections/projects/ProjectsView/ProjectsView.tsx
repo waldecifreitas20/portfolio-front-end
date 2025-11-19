@@ -1,18 +1,17 @@
+
 import { useProjects } from "../../../hooks/useProjects";
-import { Card } from "./ProjectCard";
+import { ProjectCard } from "./ProjectCard";
 
 export function ProjectsView() {
   const { getProjects } = useProjects();
 
   return (
-    <ul>
-      {getProjects().map(project => {
-        return (
-          <Card>
-            
-          </Card>
-        );
-      })}
+    <ul className="flex flex-wrap justify-center items-center">
+      {
+        getProjects()
+          .map((project, i) => {
+            return <ProjectCard key={project.id} project={project} />;
+          })}
     </ul>
   );
 }

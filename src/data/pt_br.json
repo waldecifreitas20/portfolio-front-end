@@ -54,7 +54,8 @@
     "buttons": {
       "close": "Fechar",
       "repository": "Código-Fonte",
-      "deploy": "Ver Site"
+      "deploy": "Ver Site",
+      "details": "Ver Mais"
     },
     "concepts": "Conceitos Empregados"
   }

@@ -31,7 +31,8 @@ export type StaticContent = {
       close: string,
       repository: string,
       deploy: string,
+      details: string,
     },
-    concepts : string,
+    concepts: string,
   }
 }
