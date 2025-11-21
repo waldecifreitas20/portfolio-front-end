@@ -15,9 +15,10 @@ export function LanguageMode() {
 
   return (
     <div className="flex h-full gap-2 absolute z-0 right-0 top-0">
-      {availableLanguages.map(lang => {
+      {availableLanguages.map((lang, i) => {
         return (
           <button
+            key={`lang-${i}${lang.label}`}
             onClick={() => handleClick(lang)}>
             <img
               className={`

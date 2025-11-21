@@ -5,9 +5,10 @@ export function DesktopMenu(props: Menu) {
     <nav>
       <ul className="flex gap-8 text-white/70 w-full"
       >{
-          props.options.map(opt => {
+          props.options.map((opt, i) => {
             return (
               <a
+                key={`desktopt${opt.refTo}-${i}`}
                 className="
                 transition-all duration-150
                 hover:text-purple-400 

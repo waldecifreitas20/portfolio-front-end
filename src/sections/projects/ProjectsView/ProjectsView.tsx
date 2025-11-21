@@ -26,7 +26,7 @@ export const ProjectsView = memo(function (props: ProjectsViewProps) {
         getProjects()
           .map((project, i) => {
             return <ProjectCard
-              key={project.id}
+              key={`proj_${i}-${project.id}`}
               project={project}
               onClickSeeMore={props.onSeeDetails}
             />;

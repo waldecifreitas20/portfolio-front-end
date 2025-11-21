@@ -59,8 +59,13 @@ export function MobileMenu(props: MobileMenuProps) {
         backdrop-blur-xs
         `}>
         <ul>
-          {options.map(opt => {
-            return <MenuOpt option={opt} onTap={closeMenu} />
+          {options.map((opt, i) => {
+            return (
+              <MenuOpt
+                key={`mobileopt${opt.refTo}${i}`}
+                option={opt}
+                onTap={closeMenu} />
+            );
           })}
         </ul>
       </motion.nav>

@@ -14,9 +14,10 @@ export function SocialsMedia() {
       lg:mx-0
       lg:mr-auto
       ">
-      {socials.map(social => {
+      {socials.map((social, i) => {
         return (
           <a
+            key={`social-${i}`}
             className="size-full opacity-70 hover:opacity-100"
             href={social.iconSrc}
             target="_blank"

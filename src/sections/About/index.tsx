@@ -10,8 +10,8 @@ export function About() {
       <ContentArea>
         <SectionTitle text={about.title} />
 
-        {about.text.map(paragraph => {
-          return <p className="my-5 text-justify">{paragraph}</p>
+        {about.text.map((paragraph, i) => {
+          return <p key={`p-${about.title.length}$${i}`} className="my-5 text-justify">{paragraph}</p>
         })}
       </ContentArea>
     </section>

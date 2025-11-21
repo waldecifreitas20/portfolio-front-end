@@ -60,7 +60,13 @@ export function TechnologiesView(props: TechnologiesViewProps) {
 
       <ul>
         {getSelectedTechs().map(tech => {
-          return <TechViewItem tech={tech} onClick={props.onSelectedTech} />
+          return (
+            <TechViewItem
+              key={`tech-${tech.id}`}
+              tech={tech}
+              onClick={props.onSelectedTech}
+            />
+          );
         })}
       </ul>
 
