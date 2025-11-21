@@ -1,4 +1,5 @@
 
+import { memo } from "react";
 import type { Project } from "../../../@types/Project";
 import { useProjects } from "../../../hooks/useProjects";
 import { ProjectCard } from "./ProjectCard";
@@ -8,7 +9,7 @@ interface ProjectsViewProps {
   onSeeDetails: (project: Project) => void;
 }
 
-export function ProjectsView(props: ProjectsViewProps) {
+export const ProjectsView = memo(function (props: ProjectsViewProps) {
   const { getProjects } = useProjects();
 
   return (
@@ -32,4 +33,4 @@ export function ProjectsView(props: ProjectsViewProps) {
           })}
     </ul>
   );
-}
+})
