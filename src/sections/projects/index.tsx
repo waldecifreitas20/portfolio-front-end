@@ -22,7 +22,7 @@ export function ProjectsSection() {
 
   return (
     <section
-      className="min-h-screen w-screen block bg-cover bg-top bg-no-repeat"
+      className="relative min-h-screen w-screen block bg-cover bg-top bg-no-repeat"
       style={{ background: `url(${isMobile ? mobileBg : desktopBg})` }}
     >
 
@@ -32,7 +32,7 @@ export function ProjectsSection() {
         <ProjectsView onSeeDetails={onSelectProject} />
         {/* PROJECT DETAILS */}
         {selectedProject && (
-          <ProjectDetails project={selectedProject} />
+          <ProjectDetails project={selectedProject}  />
         )}
       </ContentArea>
     </section>
