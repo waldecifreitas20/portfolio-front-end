@@ -8,9 +8,10 @@ import heroBanner from "../../assets/hero-laptop.png";
 export function HomeSection() {
   return (
     <section
+      id="hero"
       className="h-screen w-full overflow-hidden relative bg-cover bg-no-repeat bg-top"
       style={{ background: `url(${mobileBackground})`, }}>
-        
+
       <DesktopBackground />
 
       <ContentArea tailwindCss="py-2 relative z-10">

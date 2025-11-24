@@ -16,6 +16,7 @@ export function TechnologiesSection() {
 
   return (
     <section
+      id="skills"
       className="pt-10 pb-20 bg-linear-to-b from-(--bg-dark) to-(--bg-darker)">
       <ContentArea>
         <SectionTitle text={title} />

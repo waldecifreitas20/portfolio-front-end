@@ -23,6 +23,7 @@ export function ProjectsSection() {
 
   return (
     <section
+      id="projects"
       className="
       overflow-hidden  
       min-h-screen max-w-screen 
