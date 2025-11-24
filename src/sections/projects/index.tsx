@@ -25,6 +25,7 @@ export function ProjectsSection() {
     <section
       id="projects"
       className="
+      pt-5 pb-10
       overflow-hidden  
       min-h-screen max-w-screen 
       block 
