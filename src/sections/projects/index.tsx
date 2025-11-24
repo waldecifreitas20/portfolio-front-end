@@ -8,6 +8,7 @@ import { ProjectsView } from "./ProjectsView/ProjectsView";
 import { ProjectDetails } from "./ProjectsView/ProjectDetails";
 import { useCallback, useState } from "react";
 import type { Project } from "../../@types/Project";
+import { AnimatePresence, motion } from "motion/react";
 
 export function ProjectsSection() {
   const { title } = useLanguage().content.projects;
@@ -48,14 +49,21 @@ export function ProjectsSection() {
           <div className={selectedProject ? "w-fit" : "w-full"}>
             <ProjectsView onSeeDetails={onSelectProject} shrink={selectedProject !== undefined} />
           </div>
-          {selectedProject && (
-            <div className="sm:max-w-[400px] md:w-full -order-1 md:order-1">
-              <ProjectDetails
-                project={selectedProject}
-                onDismiss={() => setSelectedProject(undefined)}
-              />
-            </div>
-          )}
+          <AnimatePresence>
+            {selectedProject && (
+              <motion.div
+                initial={{ x: "100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                exit={{ x: "100%", opacity: 0 }}
+                transition={{ duration: .300 }}
+                className="relative sm:max-w-[400px] md:w-full -order-1 md:order-1">
+                <ProjectDetails
+                  project={selectedProject}
+                  onDismiss={() => setSelectedProject(undefined)}
+                />
+              </motion.div>
+            )}
+          </AnimatePresence>
         </div>
       </ContentArea>
     </section>
