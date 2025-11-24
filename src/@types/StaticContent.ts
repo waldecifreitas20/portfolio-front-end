@@ -1,5 +1,6 @@
 
 import type { MenuOption } from "./MenuOption";
+import type { Service } from "./Service";
 
 export type StaticContent = {
   menu: {
@@ -34,5 +35,11 @@ export type StaticContent = {
       details: string,
     },
     concepts: string,
+  },
+
+  services: {
+    title: string,
+    cards: Array<Service>,
+    cta: string,
   }
 }

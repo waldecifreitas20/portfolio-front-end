@@ -58,5 +58,41 @@
       "details": "Ver Mais"
     },
     "concepts": "Conceitos Empregados"
+  },
+  "services": {
+    "title": "Serviços",
+    "cards": [
+      {
+        "id": "sd545erh3h421",
+        "name": "Landing Page",
+        "description": "Página única, sucinta e eficiente, com foco na conversão de clientes.",
+        "ctas": [
+          "Infoprodutos",
+          "Portifolios",
+          "Cursos"
+        ]
+      },
+      {
+        "id": "sd545erh3h421",
+        "name": "E-commerce",
+        "description": "Aumente o alcance do seu negócio vendendo online no próprio e-commerce.",
+        "ctas": [
+          "Venda pelo WhatsApp",
+          "Rastreie Pedidos",
+          "Vendas automatizadas"
+        ]
+      },
+      {
+        "id": "sd545erh3h421",
+        "name": "Sites Institucionais",
+        "description": "Site moderno e responsivos com navegação intuitiva para fortalecer sua presença online.",
+        "ctas": [
+          "Credibilidade da marca",
+          "Geração de leads",
+          "Visibilidade do negócio"
+        ]
+      }
+    ],
+    "buttonCta": "Quero meu site!"
   }
 }

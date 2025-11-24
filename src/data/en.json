@@ -58,5 +58,41 @@
       "details": "Ver Mais"
     },
     "concepts": "Used Concepts"
+  },
+  "services": {
+    "title": "Services",
+    "cards": [
+      {
+        "id": "sd545erh3h421",
+        "name": "Landing Page",
+        "description": "Single, concise, and efficient page focused on converting clients.",
+        "ctas": [
+          "Infoproducts",
+          "Portifolios",
+          "Courses"
+        ]
+      },
+      {
+        "id": "sd545erh3h421",
+        "name": "E-commerce",
+        "description": "Increase your business reach by selling online through your own e-commerce store.",
+        "ctas": [
+          "Sell by WhatsApp",
+          "Track Orders",
+          "Automated Sales"
+        ]
+      },
+      {
+        "id": "sd545erh3h421",
+        "name": "Institutional Website",
+        "description": "Modern and responsive website with intuitive navigation to strengthen your online presence.",
+        "ctas": [
+          "Brand credibility",
+          "Lead generation",
+          "Business visibility"
+        ]
+      }
+    ],
+    "buttonCta": "I want it!"
   }
 }
