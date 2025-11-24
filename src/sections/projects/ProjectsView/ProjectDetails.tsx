@@ -14,8 +14,6 @@ export function ProjectDetails(props: ProjectDetailsProps) {
   const { buttons, concepts } = useLanguage().content.projects;
   const { project } = props;
 
-  const techSections = ["Front-End", "Back-end"];
-
   return (
     <div
       className="
@@ -42,17 +40,28 @@ export function ProjectDetails(props: ProjectDetailsProps) {
         <PrimaryButton>{buttons.deploy}</PrimaryButton>
       </div>
 
-        <TechSubsection
-          techs={project.technologies}
-          title="Front-end"
-        />
-        <TechSubsection
-          techs={project.technologies}
-          title="Back-end"
-          isBackend
-        />
 
-        <ColoredLabel isBackend textSize="text-lg">{concepts}</ColoredLabel>
+      <TechSubsection
+        techs={project.technologies}
+        title="Front-end"
+      />
+      <TechSubsection
+        techs={project.technologies}
+        title="Back-end"
+        isBackend
+      />
+
+      <ColoredLabel isBackend textSize="text-lg">{concepts}</ColoredLabel>
+      <div className="text-sm text-white/70">
+        {project.usedSkills
+          .map((skill, i) => {
+            const isLastOne = project.usedSkills.length === (i + 1);
+
+            return <span
+              key={`skill?${skill.id}`}
+            >{skill.name}{!isLastOne && ", "}</span>;
+          })}
+      </div>
 
     </div>
 
