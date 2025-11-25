@@ -15,7 +15,7 @@ export function Card(props: CardProps) {
         rounded-xl
         border-(--primary)/20
         ${props.enableHover && ("hover:shadow-purple-950/50 hover:border-(--primary)")}
-        
+        w-full
         transition-all duration-100
         shadow-lg
         sm:max-w-[400px]
