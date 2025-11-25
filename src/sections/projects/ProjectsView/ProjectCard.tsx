@@ -2,6 +2,7 @@ import { useLanguage } from "../../../hooks/useLanguage";
 import type { Project } from "../../../@types/Project";
 import { Play } from "lucide-react";
 import { AnimatedButton } from "../../../components/AnimatedButton";
+import { Card } from "../../../components/Card";
 
 interface ProjectCardProps {
   project: Project;
@@ -18,23 +19,7 @@ export function ProjectCard(props: ProjectCardProps) {
   }
 
   return (
-    <div
-      className={`
-        relative z-0
-        p-4 
-        bg-(--bg-card)
-        border 
-        rounded-xl
-        border-(--primary)/20
-        hover:border-(--primary)
-        
-        transition-all duration-100
-        shadow-lg
-        hover:shadow-purple-950/50
-        group/card
-        sm:max-w-[400px]
-        
-        `}>
+    <Card enableHover style={`relative z-0  group/card`}>
       <a
         href={project.deploy}
         target="_blank"
@@ -67,6 +52,6 @@ export function ProjectCard(props: ProjectCardProps) {
           <AnimatedButton onClick={handleClick} padding="p-2">{details}</AnimatedButton>
         </div>
       </div>
-    </div>
+    </Card>
   );
 }
