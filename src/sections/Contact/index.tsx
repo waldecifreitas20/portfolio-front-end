@@ -14,15 +14,15 @@ export function ContactSection() {
         <p>{subtitle}</p>
 
 
-        <form className="mt-5 flex flex-col gap-2">
+        <form className="mt-5 flex flex-col gap-4">
           <Input name="name" label={inputsLabels.name} required />
-          <Input name="email" label={"Email"} required />
+          <Input name="email" type="email" label={"Email"} required />
 
           <Select
             name="subject"
             label={inputsLabels.subject}
             options={inputsLabels.subjectChoices}
-            required
+            required={true}
           />
 
           <Input name="message" label={inputsLabels.message} required textarea />

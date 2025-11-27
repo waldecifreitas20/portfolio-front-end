@@ -11,7 +11,7 @@ interface SelectProps {
 }
 
 export function Select(props: SelectProps) {
-  const [value, setValue] = useState("---");
+  const [value, setValue] = useState("");
   const [displayDropdown, setDisplayDropdown] = useState(false);
   const inputRef = useRef(null);
 
@@ -39,7 +39,7 @@ export function Select(props: SelectProps) {
 
       <input
         ref={inputRef}
-        readOnly
+        name={props.name ?? ""}
         className="
           relative
           text-left
@@ -49,11 +49,15 @@ export function Select(props: SelectProps) {
          block w-full
          focus:border-b-(--primary) 
          outline-0 
-         px-2 py-2 
+         px-2 py-2 caret-transparent
+         cursor-pointer
         "
         onClick={() => openDropdown()}
         value={value}
+        required={props.required}
       />
+
+
 
       <AnimatePresence>
 
@@ -63,27 +67,24 @@ export function Select(props: SelectProps) {
             animate={{ height: "max-content" }}
             exit={{ height: 0 }}
             transition={{ duration: .100 }}
-            className="bg-black/20 border overflow-hidden">
+            className="
+            bg-black/20 
+            border border-(--primary) 
+            shadow-lg shadow-black/20
+            overflow-hidden 
+            rounded-b-md
+            ">
             {props.options.map((opt, i) => {
               return (
                 <li
                   key={`subject-${i}`}
-                  className="cursor-pointer hover:bg-(--primary)"
+                  className="cursor-pointer text-sm hover:bg-(--primary) leading-10 indent-2"
                   onClick={() => onSelectOption(opt)}>{opt}</li>
               );
             })}
           </motion.ul>
         )}
       </AnimatePresence>
-
-
-
-      <input
-        id="name"
-        type="text"
-        name={props.name ?? ""}
-        className="hidden"
-      />
     </div>
   );
 }

@@ -24,7 +24,11 @@ export function Input(props: InputProps) {
       </label>
 
       {props.textarea ? (
-        <textarea className={`${style} h-32 resize-none`}></textarea>
+        <textarea
+          name={props.name ?? ""}
+          className={`${style} h-32 resize-none`}
+          required={props.required}
+        ></textarea>
       ) : (
         <input
           {...props}
