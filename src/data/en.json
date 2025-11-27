@@ -94,5 +94,20 @@
       }
     ],
     "buttonCta": "I want it!"
+  },
+
+  "contact": {
+    "title": "Let's Work together?",
+    "subtitle": "Get in touch and tell me about what you need!",
+    "inputsLabels": {
+      "name": "Name",
+      "subject": "Subject",
+      "subjectChoices": [
+        "Looking for a freelancer",
+        "Looking for a employee"
+      ],
+      "message": "Message"
+    },
+    "buttonSend": "Send Message"
   }
 }

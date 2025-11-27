@@ -41,5 +41,16 @@ export type StaticContent = {
     title: string,
     cards: Array<Service>,
     buttonCta: string,
+  },
+  contact: {
+    title: string,
+    subtitle: string,
+    inputsLabels: {
+      name: string,
+      subject: string,
+      subjectChoices: Array<string>,
+      message: string,
+    },
+    buttonSend: string
   }
 }

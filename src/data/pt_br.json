@@ -94,5 +94,19 @@
       }
     ],
     "buttonCta": "Quero meu site!"
+  },
+  "contact": {
+    "title": "Vamos Trabalhar Juntos?",
+    "subtitle": "Entre em contato e conte sobre o que você precisa!",
+    "inputsLabels": {
+      "name": "Nome",
+      "subject": "Motivo",
+      "subjectChoices": [
+        "Procuro um freelancer",
+        "Procuro um novo colaborador (CLT/PJ)"
+      ],
+      "message": "Mensagem"
+    },
+    "buttonSend": "Enviar Mensagem"
   }
 }

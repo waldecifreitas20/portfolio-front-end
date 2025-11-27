@@ -11,7 +11,7 @@ export function ServicesSection() {
   return (
     <section
       id="services"
-      className="pt-10 pb-20 bg-linear-to-b from-(--bg-darker) to-(--bg-dark)">
+      className="pt-10 pb-20 bg-linear-to-b from-(--bg-dark) via-(--bg-darker) to-(--bg-dark)">
       <ContentArea>
         <SectionTitle text={title} />
 

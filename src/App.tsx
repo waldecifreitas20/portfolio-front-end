@@ -3,7 +3,8 @@ import {
   HomeSection,
   TechnologiesSection,
   ProjectsSection,
-  ServicesSection
+  ServicesSection,
+  ContactSection
 } from "./sections";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <TechnologiesSection />
       <ProjectsSection />
       <ServicesSection />
+      <ContactSection />
     </>
   )
 }
