@@ -264,8 +264,8 @@
       "previewUrl": "/mock/tasky.png",
       "category": "Gerenciador",
       "description": "Aplicação full-stack que auxilia no gerenciamento de atividades do dia-a-dia, adicionando tarefas a serem realizas com horários e datas específica. Suporta autenticação com conta Google ou cadastro nativo com email e senha",
-      "repository": "",
-      "deploy": "https://github.com/waldecifreitas20/portfolio-front-end",
+      "repository": "https://github.com/waldecifreitas20/portfolio-front-end",
+      "deploy": "https://taskymg.vercel.app/",
       "technologies": [
         {
           "name": "Typescript",

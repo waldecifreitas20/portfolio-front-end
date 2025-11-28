@@ -39,18 +39,22 @@ export function ProjectDetails(props: ProjectDetailsProps) {
       <p className="text-white/70">{project.description}</p>
 
       <div className="my-4 pb-4 flex flex-col md:flex-row gap-2 md:gap-4 border-b border-white/5">
-        <Button style="flex justify-center gap-2 font-bold md:py-3">
-          <span className="h-6">
-            <GithubIcon />
-          </span>
-          {buttons.repository}
-        </Button>
-        <Button accent style="flex justify-center gap-2 font-bold md:py-3">
-          <span className=" h-6">
-            <ExternalLinkIcon />
-          </span>
-          {buttons.deploy}
-        </Button>
+        <a className="block w-full h-full" href={project.repository} target="_blank">
+          <Button style="flex justify-center gap-2 font-bold md:py-3" >
+            <span className="h-6">
+              <GithubIcon />
+            </span>
+            {buttons.repository}
+          </Button>
+        </a>
+        <a className="block w-full h-full" href={project.deploy} target="_blank">
+          <Button accent style="flex justify-center gap-2 font-bold md:py-3">
+            <span className=" h-6">
+              <ExternalLinkIcon />
+            </span>
+            {buttons.deploy}
+          </Button>
+        </a>
       </div>
 
 
