@@ -4,6 +4,7 @@ import { TechnologiesSection } from "./Technologies";
 import { ProjectsSection } from "./Projects";
 import { ServicesSection } from "./Services";
 import { ContactSection } from "./Contact";
+import { Footer } from "./Footer";
 
 export {
   About,
@@ -12,4 +13,5 @@ export {
   ProjectsSection,
   ServicesSection,
   ContactSection,
+  Footer
 };

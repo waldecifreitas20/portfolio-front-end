@@ -108,5 +108,9 @@
       "message": "Mensagem"
     },
     "buttonSend": "Enviar Mensagem"
+  },
+  "footer": {
+    "copyright": "Todos os direitos reservados",
+    "developedBy": "Desenvolvido por"
   }
 }

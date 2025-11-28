@@ -52,5 +52,10 @@ export type StaticContent = {
       message: string,
     },
     buttonSend: string
+  },
+
+  footer: {
+    copyright: string,
+    developedBy: string;
   }
 }

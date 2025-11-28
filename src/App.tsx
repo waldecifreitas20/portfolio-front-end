@@ -4,7 +4,8 @@ import {
   TechnologiesSection,
   ProjectsSection,
   ServicesSection,
-  ContactSection
+  ContactSection,
+  Footer
 } from "./sections";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <ProjectsSection />
       <ServicesSection />
       <ContactSection />
+      <Footer />
     </>
   )
 }

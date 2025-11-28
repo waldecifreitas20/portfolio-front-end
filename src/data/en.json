@@ -95,7 +95,6 @@
     ],
     "buttonCta": "I want it!"
   },
-
   "contact": {
     "title": "Let's Work together?",
     "subtitle": "Get in touch and tell me about what you need!",
@@ -109,5 +108,9 @@
       "message": "Message"
     },
     "buttonSend": "Send Message"
+  },
+  "footer": {
+    "copyright": "All rights reserved",
+    "developedBy": "Developed by"
   }
 }
