@@ -37,8 +37,12 @@ export function HeroText() {
               lg:mr-auto
               
               ">
-        <AnimatedButton>{hero.buttons.projects}</AnimatedButton>
-        <FlatButton>{hero.buttons.contact}</FlatButton>
+        <a href="#projects" className="block w-full">
+          <AnimatedButton>{hero.buttons.projects}</AnimatedButton>
+        </a>
+        <a href="#contact" className="block w-full">
+          <FlatButton>{hero.buttons.contact}</FlatButton>
+        </a>
       </article>
 
     </section>
