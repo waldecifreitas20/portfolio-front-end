@@ -32,7 +32,7 @@ export function Input(props: InputProps) {
       ) : (
         <input
           {...props}
-          type="text"
+          type={props.type ?? "text"}
           className={style}
         />
       )}

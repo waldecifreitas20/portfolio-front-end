@@ -4,15 +4,16 @@ interface ButtonProps extends PropsWithChildren {
   accent?: boolean;
   onClick?: () => void;
   style?: string;
+  disabled?: boolean;
 }
 
 export function Button(props: ButtonProps) {
   const buttonColors = props.accent ?
-    ("bg-(--accent) hover:bg-(--accent-hover)") :
-    ("bg-(--primary) hover:bg-(--primary-hover)");
+    (`bg-(--accent) ${!props.disabled && 'hover:bg-(--accent-hover)'}`) :
+    (`bg-(--primary) ${!props.disabled && 'hover:bg-(--primary-hover)'}`);
 
 
-  function handleClick(evt: any) {
+  function handleClick() {
     if (props.onClick) {
       props.onClick();
     }
@@ -24,7 +25,7 @@ export function Button(props: ButtonProps) {
       ${buttonColors}
       block w-full 
       shadow-md rounded-md 
-      cursor-pointer  
+      ${props.disabled ? "cursor-not-allowed opacity-30" : "cursor-pointer "} 
 
       ${props.style ?? ''}
       `}
