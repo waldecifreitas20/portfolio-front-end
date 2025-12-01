@@ -31,7 +31,7 @@
       "name": "Typescript",
       "color": "blue",
       "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
-      "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+      "iconUrl": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
       "isBackend": false,
       "skills": [
         {
@@ -57,7 +57,7 @@
       "name": "Javascript",
       "color": "blue",
       "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
-      "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+      "iconUrl": "https://www.svgrepo.com/show/353925/javascript.svg",
       "isBackend": false,
       "skills": [
         {
@@ -83,7 +83,7 @@
       "name": "Express.js",
       "color": "gray",
       "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
-      "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+      "iconUrl": "https://www.svgrepo.com/show/330398/express.svg",
       "isBackend": true,
       "skills": [
         {
@@ -109,7 +109,7 @@
       "name": "NestJs",
       "color": "red",
       "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
-      "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+      "iconUrl": "https://www.svgrepo.com/show/373872/nestjs.svg",
       "isBackend": true,
       "skills": [
         {
@@ -135,7 +135,7 @@
       "name": "NodeJs",
       "color": "green",
       "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
-      "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+      "iconUrl": "https://www.svgrepo.com/show/376337/node-js.svg",
       "isBackend": true,
       "skills": [
         {
