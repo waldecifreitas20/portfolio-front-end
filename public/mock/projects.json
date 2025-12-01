@@ -8,10 +8,11 @@
       "description": "Portfólio pessoal desenvolvido em React e tecnologias full-stack, apresentando meus projetos, habilidades e experiência com foco em performance, responsividade e design moderno.",
       "repository": "https://github.com/waldecifreitas20/portfolio-front-end  ",
       "deploy": "/",
-      "technologies": [
+      "technologies":  [
         {
+          "id": "as6ulyi5065dgjd4ef54",
           "name": "React.js",
-          "color": "cian",
+          "color": "blue",
           "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
           "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
           "isBackend": false,
@@ -35,10 +36,11 @@
           ]
         },
         {
+          "id": "we546set65wt65",
           "name": "Typescript",
           "color": "blue",
-          "description": "Typescript",
-          "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+          "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
+          "iconUrl": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
           "isBackend": false,
           "skills": [
             {
@@ -60,10 +62,37 @@
           ]
         },
         {
+          "id": "65sdg546w505R",
+          "name": "Javascript",
+          "color": "blue",
+          "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
+          "iconUrl": "https://www.svgrepo.com/show/353925/javascript.svg",
+          "isBackend": false,
+          "skills": [
+            {
+              "id": "skil0wr",
+              "name": "Gerenciamento de Estados"
+            },
+            {
+              "id": "skil0wr",
+              "name": "Manipulação do DOM"
+            },
+            {
+              "id": "skil0wr",
+              "name": "Uso de Hooks"
+            },
+            {
+              "id": "skil0wr",
+              "name": "Integração com API"
+            }
+          ]
+        },
+        {
+          "id": "srh4ersg54r54bsb32352067",
           "name": "Express.js",
           "color": "gray",
           "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
-          "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+          "iconUrl": "https://www.svgrepo.com/show/330398/express.svg",
           "isBackend": true,
           "skills": [
             {
@@ -85,10 +114,37 @@
           ]
         },
         {
+          "id": "654sfg35fnf54rt65k4y654",
+          "name": "NestJs",
+          "color": "red",
+          "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
+          "iconUrl": "https://www.svgrepo.com/show/373872/nestjs.svg",
+          "isBackend": true,
+          "skills": [
+            {
+              "id": "skil0wr",
+              "name": "Gerenciamento de Estados"
+            },
+            {
+              "id": "skil0wr",
+              "name": "Manipulação do DOM"
+            },
+            {
+              "id": "skil0wr",
+              "name": "Uso de Hooks"
+            },
+            {
+              "id": "skil0wr",
+              "name": "Integração com API"
+            }
+          ]
+        },
+        {
+          "id": "d5dg6nf2ryj056",
           "name": "NodeJs",
           "color": "green",
           "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
-          "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+          "iconUrl": "https://www.svgrepo.com/show/376337/node-js.svg",
           "isBackend": true,
           "skills": [
             {
@@ -137,34 +193,10 @@
       "description": "Loja virtual focada em produtos voltados ao público feminino. Possui integração com Firebase",
       "repository": "",
       "deploy": "https://makeshop-store.vercel.app",
-      "technologies": [
+      "technologies":  [
         {
+          "id": "as6ulyi5065dgjd4ef54",
           "name": "React.js",
-          "color": "cian",
-          "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
-          "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
-          "isBackend": false,
-          "skills": [
-            {
-              "id": "skil0wr",
-              "name": "Gerenciamento de Estados"
-            },
-            {
-              "id": "skil0wr",
-              "name": "Manipulação do DOM"
-            },
-            {
-              "id": "skil0wr",
-              "name": "Uso de Hooks"
-            },
-            {
-              "id": "skil0wr",
-              "name": "Integração com API"
-            }
-          ]
-        },
-        {
-          "name": "Typescript",
           "color": "blue",
           "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
           "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
@@ -189,10 +221,63 @@
           ]
         },
         {
+          "id": "we546set65wt65",
+          "name": "Typescript",
+          "color": "blue",
+          "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
+          "iconUrl": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
+          "isBackend": false,
+          "skills": [
+            {
+              "id": "skil0wr",
+              "name": "Gerenciamento de Estados"
+            },
+            {
+              "id": "skil0wr",
+              "name": "Manipulação do DOM"
+            },
+            {
+              "id": "skil0wr",
+              "name": "Uso de Hooks"
+            },
+            {
+              "id": "skil0wr",
+              "name": "Integração com API"
+            }
+          ]
+        },
+        {
+          "id": "65sdg546w505R",
+          "name": "Javascript",
+          "color": "blue",
+          "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
+          "iconUrl": "https://www.svgrepo.com/show/353925/javascript.svg",
+          "isBackend": false,
+          "skills": [
+            {
+              "id": "skil0wr",
+              "name": "Gerenciamento de Estados"
+            },
+            {
+              "id": "skil0wr",
+              "name": "Manipulação do DOM"
+            },
+            {
+              "id": "skil0wr",
+              "name": "Uso de Hooks"
+            },
+            {
+              "id": "skil0wr",
+              "name": "Integração com API"
+            }
+          ]
+        },
+        {
+          "id": "srh4ersg54r54bsb32352067",
           "name": "Express.js",
           "color": "gray",
           "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
-          "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+          "iconUrl": "https://www.svgrepo.com/show/330398/express.svg",
           "isBackend": true,
           "skills": [
             {
@@ -214,10 +299,37 @@
           ]
         },
         {
-          "name": "Firebase",
-          "color": "orange",
+          "id": "654sfg35fnf54rt65k4y654",
+          "name": "NestJs",
+          "color": "red",
           "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
-          "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+          "iconUrl": "https://www.svgrepo.com/show/373872/nestjs.svg",
+          "isBackend": true,
+          "skills": [
+            {
+              "id": "skil0wr",
+              "name": "Gerenciamento de Estados"
+            },
+            {
+              "id": "skil0wr",
+              "name": "Manipulação do DOM"
+            },
+            {
+              "id": "skil0wr",
+              "name": "Uso de Hooks"
+            },
+            {
+              "id": "skil0wr",
+              "name": "Integração com API"
+            }
+          ]
+        },
+        {
+          "id": "d5dg6nf2ryj056",
+          "name": "NodeJs",
+          "color": "green",
+          "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
+          "iconUrl": "https://www.svgrepo.com/show/376337/node-js.svg",
           "isBackend": true,
           "skills": [
             {
@@ -266,12 +378,39 @@
       "description": "Aplicação full-stack que auxilia no gerenciamento de atividades do dia-a-dia, adicionando tarefas a serem realizas com horários e datas específica. Suporta autenticação com conta Google ou cadastro nativo com email e senha",
       "repository": "https://github.com/waldecifreitas20/portfolio-front-end",
       "deploy": "https://taskymg.vercel.app/",
-      "technologies": [
+      "technologies":  [
         {
+          "id": "as6ulyi5065dgjd4ef54",
+          "name": "React.js",
+          "color": "blue",
+          "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
+          "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+          "isBackend": false,
+          "skills": [
+            {
+              "id": "skil0wr",
+              "name": "Gerenciamento de Estados"
+            },
+            {
+              "id": "skil0wr",
+              "name": "Manipulação do DOM"
+            },
+            {
+              "id": "skil0wr",
+              "name": "Uso de Hooks"
+            },
+            {
+              "id": "skil0wr",
+              "name": "Integração com API"
+            }
+          ]
+        },
+        {
+          "id": "we546set65wt65",
           "name": "Typescript",
           "color": "blue",
           "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
-          "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+          "iconUrl": "https://www.svgrepo.com/show/354478/typescript-icon.svg",
           "isBackend": false,
           "skills": [
             {
@@ -293,10 +432,11 @@
           ]
         },
         {
-          "name": "React.js",
-          "color": "cian",
+          "id": "65sdg546w505R",
+          "name": "Javascript",
+          "color": "blue",
           "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
-          "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+          "iconUrl": "https://www.svgrepo.com/show/353925/javascript.svg",
           "isBackend": false,
           "skills": [
             {
@@ -318,10 +458,11 @@
           ]
         },
         {
+          "id": "srh4ersg54r54bsb32352067",
           "name": "Express.js",
           "color": "gray",
           "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
-          "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+          "iconUrl": "https://www.svgrepo.com/show/330398/express.svg",
           "isBackend": true,
           "skills": [
             {
@@ -343,10 +484,11 @@
           ]
         },
         {
-          "name": "PostgresSQL",
-          "color": "blue",
+          "id": "654sfg35fnf54rt65k4y654",
+          "name": "NestJs",
+          "color": "red",
           "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
-          "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+          "iconUrl": "https://www.svgrepo.com/show/373872/nestjs.svg",
           "isBackend": true,
           "skills": [
             {
@@ -368,10 +510,11 @@
           ]
         },
         {
+          "id": "d5dg6nf2ryj056",
           "name": "NodeJs",
           "color": "green",
           "description": "React é uma biblioteca JavaScript desenvolvida pelo Facebook para construir interfaces de usuário (UIs) de forma eficiente e declarativa.",
-          "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+          "iconUrl": "https://www.svgrepo.com/show/376337/node-js.svg",
           "isBackend": true,
           "skills": [
             {
