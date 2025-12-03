@@ -23,11 +23,12 @@ export function ContactSection() {
       const formElement = evt.target;
       const data = new FormData(formElement);
 
-      const all = Object.fromEntries(data.entries());
       setTimeout(() => {
         setIsSubmitting(false);
         alert("Mensagen enviada! Obrigado por entrar em contato. Em breve estarei entrando em conato com você. ");
       }, 2000);
+
+      return Object.fromEntries(data.entries());
     }
   }
 

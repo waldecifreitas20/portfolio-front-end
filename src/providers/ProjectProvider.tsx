@@ -6,8 +6,8 @@ import type { Technology } from "../@types/Technology";
 export const ProjectsContext = createContext({
   getProjects: () => [] as Array<Project>,
   getTotal: () => Number(0),
-  getByTech: (tech: Technology) => ({} as Project | undefined),
-  getAllByTech: (tech: Technology) => ([] as Array<Project>),
+  getByTech: (_: Technology) => ({} as Project | undefined),
+  getAllByTech: (_: Technology) => ([] as Array<Project>),
 });
 
 export function ProjectProvider(props: PropsWithChildren) {

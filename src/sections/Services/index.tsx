@@ -7,7 +7,6 @@ import { Button } from "../../components/Button";
 
 export function ServicesSection() {
   const { title, buttonCta, cards } = useLanguage().content.services;
-  const whatsappUrl = "https://api.whatsapp.com/send?phone=5547991957764&text="
 
   function getUrlMessage(service: string) {
     const text = `Olá Gostaria de saber mais sobre o serviço de criação de ${service}`;

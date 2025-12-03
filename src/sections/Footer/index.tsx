@@ -45,7 +45,7 @@ export function Footer() {
           md:gap-8
           ">
           {menu.options.map((opt, i) => {
-            return <a className="hover:text-(--primary)" href={opt.refTo}>{opt.label}</a>
+            return <a key={`footer-opt-${i}`} className="hover:text-(--primary)" href={opt.refTo}>{opt.label}</a>
           })}
         </nav>
 

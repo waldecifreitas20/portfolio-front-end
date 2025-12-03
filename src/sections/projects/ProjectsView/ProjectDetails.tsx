@@ -1,4 +1,4 @@
-import { ExternalLink, ExternalLinkIcon, MoveLeft } from "lucide-react";
+import { ExternalLinkIcon, MoveLeft } from "lucide-react";
 import type { Project } from "../../../@types/Project";
 import { ImageContainer } from "../../../components/ImageContainer";
 import { useLanguage } from "../../../hooks/useLanguage";
