@@ -1,0 +1,116 @@
+{
+  "menu": {
+    "options": [
+      {
+        "label": "Inicio",
+        "refTo": "#hero"
+      },
+      {
+        "label": "Sobre",
+        "refTo": "#about"
+      },
+      {
+        "label": "Habilidades",
+        "refTo": "#skills"
+      },
+      {
+        "label": "Projetos",
+        "refTo": "#projects"
+      },
+      {
+        "label": "Serviços",
+        "refTo": "#services"
+      },
+      {
+        "label": "Contato",
+        "refTo": "#contact"
+      }
+    ]
+  },
+  "hero": {
+    "title": "Desenvolvedor Web",
+    "intro": "Soluções de software com foco na experiência do usuário. Aberto a oportunidades como freelancer.",
+    "buttons": {
+      "projects": "Ver Projetos",
+      "contact": "Fale Comigo"
+    }
+  },
+  "about": {
+    "title": "Quem Sou Eu?",
+    "text": [
+      "Sou Desenvolvedor Web formado em Sistemas de Informação pela Universidade Federal do Pará. No dia a dia, utilizo principalmente React, JavaScript e TypeScript para desenvolver interfaces modernas e dinâmicas. No lado do servidor, trabalho com Node.js e frameworks como NestJS e Express, que me ajudam a estruturar sistemas sólidos e organizados.Para lidar com bancos de dados, tenho experiência com PostgreSQL e MySQL, e no fluxo de desenvolvimento utilizo Git e Vite para manter tudo ágil e bem organizado. As tecnologias acima representam o que mais faz parte do meu trabalho hoje. Mesmo assim, estou sempre estudando e explorando novas ferramentas para continuar evoluindo como profissional.",
+      "Desde que escrevi minhas primeiras linhas de código, descobri que a tecnologia é, para mim, uma forma de transformar ideias em experiências reais. Gosto de criar interfaces simples, funcionais e bem estruturadas, sempre pensando na melhor forma de cada pessoa interagir com o que está na tela. Trabalho com foco em construir aplicações rápidas, responsivas e fáceis de usar, seja para projetos pessoais ou profissionais."
+    ]
+  },
+  "tech": {
+    "title": "Tecnologias",
+    "details": {
+      "skills": "Habilidades",
+      "projects": "Projetos"
+    }
+  },
+  "projects": {
+    "title": "Projetos",
+    "buttons": {
+      "close": "Fechar",
+      "repository": "Código-Fonte",
+      "deploy": "Ver Site",
+      "details": "Ver Mais"
+    },
+    "concepts": "Conceitos Empregados"
+  },
+  "services": {
+    "title": "Serviços",
+    "cards": [
+      {
+        "id": "sd545erh3h421",
+        "name": "Landing Page",
+        "description": "Página única, sucinta e eficiente, com foco na conversão de clientes.",
+        "ctas": [
+          "Infoprodutos",
+          "Portifolios",
+          "Cursos"
+        ]
+      },
+      {
+        "id": "sd545erh3h421",
+        "name": "E-commerce",
+        "description": "Aumente o alcance do seu negócio vendendo online no próprio e-commerce.",
+        "ctas": [
+          "Venda pelo WhatsApp",
+          "Rastreie Pedidos",
+          "Vendas automatizadas"
+        ]
+      },
+      {
+        "id": "sd545erh3h421",
+        "name": "Sites Institucionais",
+        "description": "Site moderno e responsivos com navegação intuitiva para fortalecer sua presença online.",
+        "ctas": [
+          "Credibilidade da marca",
+          "Geração de leads",
+          "Visibilidade do negócio"
+        ]
+      }
+    ],
+    "buttonCta": "Quero meu site!"
+  },
+  "contact": {
+    "title": "Vamos Trabalhar Juntos?",
+    "subtitle": "Entre em contato e conte sobre o que você precisa!",
+    "inputsLabels": {
+      "name": "Nome",
+      "subject": "Motivo",
+      "subjectChoices": [
+        "Procuro um freelancer",
+        "Procuro um novo colaborador (CLT/PJ)"
+      ],
+      "message": "Mensagem"
+    },
+    "buttonSend": "Enviar Mensagem"
+  },
+  "footer": {
+    "copyright": "Todos os direitos reservados",
+    "developedBy": "Desenvolvido por"
+  }
+}

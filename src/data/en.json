@@ -1,0 +1,116 @@
+{
+  "menu": {
+    "options": [
+      {
+        "label": "Home",
+        "refTo": "#hero"
+      },
+      {
+        "label": "About",
+        "refTo": "#about"
+      },
+      {
+        "label": "Skills",
+        "refTo": "#skills"
+      },
+      {
+        "label": "Projects",
+        "refTo": "#projects"
+      },
+      {
+        "label": "Services",
+        "refTo": "#services"
+      },
+      {
+        "label": "Contact",
+        "refTo": "#contact"
+      }
+    ]
+  },
+  "hero": {
+    "title": "Full-Stack Developer",
+    "intro": "Software solutions focused on user experience. Open to freelance opportunities.",
+    "buttons": {
+      "projects": "See Projects",
+      "contact": "Let's Talk!"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "text": [
+      "I am a Web Developer with a degree in Information Systems from the Federal University of Pará. In my daily work, I mainly use React, JavaScript, and TypeScript to build modern and dynamic interfaces. On the server side, I work with Node.js and frameworks such as NestJS and Express, which help me structure solid and well-organized systems. To handle databases, I have experience with PostgreSQL and MySQL, and in my development workflow I use Git and Vite to keep everything agile and well organized. The technologies above represent what is most present in my work today. Even so, I am always studying and exploring new tools to continue evolving as a professional.",
+      "Since I wrote my first lines of code, I discovered that technology, for me, is a way to transform ideas into real experiences. I enjoy creating simple, functional, and well-structured interfaces, always thinking about the best way for each person to interact with what’s on the screen. I work with a focus on building fast, responsive, and easy-to-use applications, whether for personal or professional projects."
+    ]
+  },
+  "tech": {
+    "title": "Technologies",
+    "details": {
+      "skills": "Skills",
+      "projects": "Projects"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "buttons": {
+      "close": "Close",
+      "repository": "Source-Code",
+      "deploy": "See website",
+      "details": "Ver Mais"
+    },
+    "concepts": "Used Concepts"
+  },
+  "services": {
+    "title": "Services",
+    "cards": [
+      {
+        "id": "sd545erh3h421",
+        "name": "Landing Page",
+        "description": "Single, concise, and efficient page focused on converting clients.",
+        "ctas": [
+          "Infoproducts",
+          "Portifolios",
+          "Courses"
+        ]
+      },
+      {
+        "id": "sd545erh3h421",
+        "name": "E-commerce",
+        "description": "Increase your business reach by selling online through your own e-commerce store.",
+        "ctas": [
+          "Sell by WhatsApp",
+          "Track Orders",
+          "Automated Sales"
+        ]
+      },
+      {
+        "id": "sd545erh3h421",
+        "name": "Institutional Website",
+        "description": "Modern and responsive website with intuitive navigation to strengthen your online presence.",
+        "ctas": [
+          "Brand credibility",
+          "Lead generation",
+          "Business visibility"
+        ]
+      }
+    ],
+    "buttonCta": "I want it!"
+  },
+  "contact": {
+    "title": "Let's Work together?",
+    "subtitle": "Get in touch and tell me about what you need!",
+    "inputsLabels": {
+      "name": "Name",
+      "subject": "Subject",
+      "subjectChoices": [
+        "Looking for a freelancer",
+        "Looking for a employee"
+      ],
+      "message": "Message"
+    },
+    "buttonSend": "Send Message"
+  },
+  "footer": {
+    "copyright": "All rights reserved",
+    "developedBy": "Developed by"
+  }
+}
