@@ -1,7 +1,9 @@
-import { TextAlignJustifyIcon } from "lucide-react";
 import { useState } from "react";
 import { motion } from "motion/react";
-import type { Menu } from "../../../@types/Menu";
+import { TextAlignJustifyIcon } from "lucide-react";
+
+import type { Menu } from "@/types/Menu";
+
 import { MenuOpt } from "./MenuOption";
 
 

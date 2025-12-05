@@ -1,8 +1,8 @@
 import { createContext, useState, type PropsWithChildren } from "react";
-import ptContentJson from "../data/pt_br.json";
-import enContentJson from "../data/en.json";
-import type { LanguageLabel } from "../@types/Language";
-import type {StaticContent } from "../@types/StaticContent";
+import ptContentJson from "@/data/pt_br.json";
+import enContentJson from "@/data/en.json";
+import type { LanguageLabel } from "@/types/Language";
+import type { StaticContent } from "@/types/StaticContent";
 
 export const StaticContentContext = createContext({
   load: (_languageLabel: LanguageLabel) => { },

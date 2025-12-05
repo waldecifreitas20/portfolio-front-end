@@ -1,4 +1,4 @@
-import type { Menu } from "../../../@types/Menu";
+import type { Menu } from "@/types/Menu";
 
 export function DesktopMenu(props: Menu) {
   return (

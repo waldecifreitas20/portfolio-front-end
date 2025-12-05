@@ -1,9 +1,10 @@
-import { MobileMenu } from "./Mobile";
-import { LanguageMode } from "./LanguageMode";
-import { useLanguage } from "../../../hooks/useLanguage";
-import { DesktopMenu } from "./DesktopMenu";
-import { useBreakpoint } from "../../../hooks/useBreakpoint";
+import { useLanguage } from "@hooks/useLanguage";
+import { useBreakpoint } from "@hooks/useBreakpoint";
 
+
+import { LanguageMode } from "./LanguageMode";
+import { DesktopMenu } from "./DesktopMenu";
+import { MobileMenu } from "./Mobile";
 
 export function Header() {
   const { isMobile } = useBreakpoint(767);

@@ -1,7 +1,9 @@
-import { AnimatedButton } from "../../components/AnimatedButton";
-import { FlatButton } from "../../components/FlatButton";
+import { AnimatedButton } from "@components/AnimatedButton";
+import { FlatButton } from "@components/FlatButton";
+import { useLanguage } from "@hooks/useLanguage";
+
 import { SocialsMedia } from "./SocialsMedia";
-import { useLanguage } from "../../hooks/useLanguage";
+
 
 export function HeroText() {
   const { content } = useLanguage();

@@ -1,9 +1,9 @@
 import { BadgeCheck, LayoutTemplate } from "lucide-react";
-import { Card } from "../../components/Card";
-import { ContentArea } from "../../components/ContentArea";
-import { SectionTitle } from "../../components/SectionTitle";
-import { useLanguage } from "../../hooks/useLanguage";
-import { Button } from "../../components/Button";
+import { Card } from "@components/Card";
+import { ContentArea } from "@components/ContentArea";
+import { SectionTitle } from "@components/SectionTitle";
+import { useLanguage } from "@hooks/useLanguage";
+import { Button } from "@components/Button";
 
 export function ServicesSection() {
   const { title, buttonCta, cards } = useLanguage().content.services;

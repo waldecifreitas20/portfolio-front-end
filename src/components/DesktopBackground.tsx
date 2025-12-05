@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useBreakpoint } from "../hooks/useBreakpoint";
+import { useBreakpoint } from "@hooks/useBreakpoint";
 
 export function DesktopBackground() {
   const { isMobile } = useBreakpoint();
@@ -7,7 +7,7 @@ export function DesktopBackground() {
 
   useEffect(() => {
     if (!isMobile && video === '') {
-      import('../assets/bg-hero-desktop.mp4')
+      import('@assets/bg-hero-desktop.mp4')
         .then(video => setVideo(video.default));
     }
   }, [isMobile]);

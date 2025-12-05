@@ -1,11 +1,17 @@
 import { ExternalLinkIcon, MoveLeft } from "lucide-react";
-import type { Project } from "../../../@types/Project";
-import { ImageContainer } from "../../../components/ImageContainer";
-import { useLanguage } from "../../../hooks/useLanguage";
-import { Button } from "../../../components/Button";
-import { ColoredLabel } from "../../../components/ColoredLabel";
+
+import type { Project } from "@/types/Project";
+
+import { ImageContainer } from "@components/ImageContainer";
+import { Button } from "@components/Button";
+import { ColoredLabel } from "@components/ColoredLabel";
+import { GithubIcon } from "@components/GitHubIcon";
+
+import { useLanguage } from "@hooks/useLanguage";
+
 import { TechSubsection } from "./TechSubSection";
-import { GithubIcon } from "../../../components/GitHubIcon";
+
+
 
 interface ProjectDetailsProps {
   project: Project;

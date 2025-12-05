@@ -1,8 +1,11 @@
 import { Mail } from "lucide-react";
-import { ContentArea } from "../../components/ContentArea";
-import gitHubIcon from "../../assets/github-white-icon.svg";
-import linkedinIcon from "../../assets/linkedin-white-icon.svg";
-import { useLanguage } from "../../hooks/useLanguage";
+
+import { ContentArea } from "@components/ContentArea";
+
+import gitHubIcon from "@assets/github-white-icon.svg";
+import linkedinIcon from "@assets/linkedin-white-icon.svg";
+
+import { useLanguage } from "@hooks/useLanguage";
 
 
 const socials = [

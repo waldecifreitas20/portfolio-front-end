@@ -1,4 +1,4 @@
-import type { MenuOption } from "../../../@types/MenuOption";
+import type { MenuOption } from "@/types/MenuOption";
 interface MenuOptionProps {
   option: MenuOption;
   onTap?: (opt: MenuOption) => void;

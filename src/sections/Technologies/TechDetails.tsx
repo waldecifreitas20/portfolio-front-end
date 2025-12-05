@@ -1,9 +1,9 @@
 import { useContext } from "react";
-import type { Technology } from "../../@types/Technology";
-import { useLanguage } from "../../hooks/useLanguage";
-import { ProjectsContext } from "../../providers/ProjectProvider";
-import { ColoredLabel } from "../../components/ColoredLabel";
-import { List } from "../../components/List";
+import type { Technology } from "@/types/Technology";
+import { useLanguage } from "@hooks/useLanguage";
+import { ProjectsContext } from "@providers/ProjectProvider";
+import { ColoredLabel } from "@components/ColoredLabel";
+import { List } from "@components/List";
 import { CircleSmall, Link } from "lucide-react";
 
 interface TechnologyDetailsProps {

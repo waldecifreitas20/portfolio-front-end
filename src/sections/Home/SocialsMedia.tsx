@@ -1,5 +1,5 @@
-import gitHubIcon from "../../assets/github-white-icon.svg";
-import linkedinIcon from "../../assets/linkedin-white-icon.svg";
+import gitHubIcon from "@assets/github-white-icon.svg";
+import linkedinIcon from "@assets/linkedin-white-icon.svg";
 
 const socials = [
   { iconSrc: gitHubIcon, link: 'https://github.com/waldecifreitas20' },

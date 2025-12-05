@@ -1,8 +1,11 @@
-import { useLanguage } from "../../../hooks/useLanguage";
-import type { Project } from "../../../@types/Project";
 import { Play } from "lucide-react";
-import { AnimatedButton } from "../../../components/AnimatedButton";
-import { Card } from "../../../components/Card";
+
+import { useLanguage } from "@hooks/useLanguage";
+
+import type { Project } from "@/types/Project";
+
+import { AnimatedButton } from "@components/AnimatedButton";
+import { Card } from "@components/Card";
 
 interface ProjectCardProps {
   project: Project;

@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import type { Technology } from "../../../@types/Technology";
+import type { Technology } from "@/types/Technology";
 import { ProgressBar } from "./ProgressBar";
-import { ProjectsContext } from "../../../providers/ProjectProvider";
+import { ProjectsContext } from "@providers/ProjectProvider";
 
 interface TechViewItemProps {
   tech: Technology,

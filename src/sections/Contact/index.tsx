@@ -1,11 +1,15 @@
+import { useState } from "react";
 import { Send } from "lucide-react";
-import { Button } from "../../components/Button";
-import { ContentArea } from "../../components/ContentArea";
-import { useLanguage } from "../../hooks/useLanguage";
+
+import { Button } from "@components/Button";
+import { ContentArea } from "@components/ContentArea";
+import { Loading } from "@components/Loading";
+
+import { useLanguage } from "@hooks/useLanguage";
+
 import { Input } from "./Input";
 import { Select } from "./Select";
-import { useState } from "react";
-import { Loading } from "../../components/Loading";
+
 
 
 export function ContactSection() {

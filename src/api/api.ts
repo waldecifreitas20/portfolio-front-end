@@ -1,5 +1,5 @@
-import type { Project } from '../@types/Project';
-import { type Technology } from './../@types/Technology';
+import type { Project } from '@/types/Project';
+import { type Technology } from '@/types/Technology';
 
 type ApiResponse<T> = (data: Array<T>) => void;
 

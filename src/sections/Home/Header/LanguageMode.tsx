@@ -1,6 +1,6 @@
 
-import type { Language } from "../../../@types/Language";
-import { useLanguage } from "../../../hooks/useLanguage";
+import type { Language } from "@/types/Language";
+import { useLanguage } from "@hooks/useLanguage";
 
 
 export function LanguageMode() {

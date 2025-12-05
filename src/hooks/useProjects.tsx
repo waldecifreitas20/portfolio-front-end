@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { ProjectsContext } from "../providers/ProjectProvider";
+import { ProjectsContext } from "@providers/ProjectProvider";
 
 export function useProjects() {
   const provider = useContext(ProjectsContext);

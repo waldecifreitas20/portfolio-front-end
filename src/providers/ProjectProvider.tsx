@@ -1,7 +1,7 @@
 import { createContext, useEffect, useState, type PropsWithChildren } from "react";
-import { Api } from "../api/api";
-import type { Project } from "../@types/Project";
-import type { Technology } from "../@types/Technology";
+import { Api } from "@/api/api";
+import type { Project } from "@/types/Project";
+import type { Technology } from "@/types/Technology";
 
 export const ProjectsContext = createContext({
   getProjects: () => [] as Array<Project>,

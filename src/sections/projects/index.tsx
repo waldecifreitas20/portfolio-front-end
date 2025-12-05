@@ -1,14 +1,21 @@
-import { ContentArea } from "../../components/ContentArea";
-import { SectionTitle } from "../../components/SectionTitle";
-import { useLanguage } from "../../hooks/useLanguage";
-import mobileBg from "../../assets/bg-projects-mobile.jpg";
-import desktopBg from "../../assets/bg-projects-desktop.jpg";
-import { useBreakpoint } from "../../hooks/useBreakpoint";
-import { ProjectsView } from "./ProjectsView/ProjectsView";
-import { ProjectDetails } from "./ProjectsView/ProjectDetails";
 import { useCallback, useState } from "react";
-import type { Project } from "../../@types/Project";
 import { AnimatePresence, motion } from "motion/react";
+
+import { ContentArea } from "@components/ContentArea";
+import { SectionTitle } from "@components/SectionTitle";
+
+import { useLanguage } from "@hooks/useLanguage";
+import { useBreakpoint } from "@hooks/useBreakpoint";
+
+import mobileBg from "@assets/bg-projects-mobile.jpg";
+import desktopBg from "@assets/bg-projects-desktop.jpg";
+
+import type { Project } from "@/types/Project";
+
+import { ProjectDetails } from "./ProjectsView/ProjectDetails";
+import { ProjectsView } from "./ProjectsView/ProjectsView";
+
+
 
 export function ProjectsSection() {
   const { title } = useLanguage().content.projects;

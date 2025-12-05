@@ -1,8 +1,8 @@
-import type { Language } from "../@types/Language";
+import type { Language } from "@/types/Language";
 import { useContext, useState } from "react";
-import { StaticContentContext } from "../providers/StaticContentProvider";
-import ptFlag from "../assets/pt-flag.png";
-import enFlag from "../assets/en-flag.png";
+import { StaticContentContext } from "@providers/StaticContentProvider";
+import ptFlag from "@assets/pt-flag.png";
+import enFlag from "@assets/en-flag.png";
 
 
 const languages = [

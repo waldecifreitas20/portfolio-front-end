@@ -1,7 +1,9 @@
 
 import { memo } from "react";
-import type { Project } from "../../../@types/Project";
-import { useProjects } from "../../../hooks/useProjects";
+
+import type { Project } from "@/types/Project";
+import { useProjects } from "@hooks/useProjects";
+
 import { ProjectCard } from "./ProjectCard";
 
 

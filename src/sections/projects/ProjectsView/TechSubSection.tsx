@@ -1,5 +1,5 @@
-import type { Technology } from "../../../@types/Technology";
-import { ColoredLabel } from "../../../components/ColoredLabel";
+import type { Technology } from "@/types/Technology";
+import { ColoredLabel } from "@components/ColoredLabel";
 
 interface TechSubsectionProps {
   title: string;

@@ -1,6 +1,6 @@
-import { ContentArea } from "../../components/ContentArea";
-import { SectionTitle } from "../../components/SectionTitle";
-import { useLanguage } from "../../hooks/useLanguage";
+import { ContentArea } from "@components/ContentArea";
+import { SectionTitle } from "@components/SectionTitle";
+import { useLanguage } from "@hooks/useLanguage";
 export function About() {
   const { content } = useLanguage();
   const { about } = content;

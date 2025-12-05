@@ -1,8 +1,8 @@
 import { useState } from "react";
-import type { Technology } from "../../@types/Technology";
-import { ContentArea } from "../../components/ContentArea";
-import { SectionTitle } from "../../components/SectionTitle";
-import { useLanguage } from "../../hooks/useLanguage";
+import type { Technology } from "@/types/Technology";
+import { ContentArea } from "@components/ContentArea";
+import { SectionTitle } from "@components/SectionTitle";
+import { useLanguage } from "@hooks/useLanguage";
 import { TechnologiesView } from "./TechnologiesView/TechnologiesView";
 import { TechnologyDetails } from "./TechDetails";
 
