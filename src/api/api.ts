@@ -3,20 +3,37 @@ import { type Technology } from '@/types/Technology';
 
 type ApiResponse<T> = (data: Array<T>) => void;
 
-async function api(url: string) {
-  return await fetch(url)
+function getBaseUrl() {
+  const {
+    DEV,
+    VITE_API_URL_DEV: devMode,
+    VITE_API_URL_PROD: prodMode
+  } = import.meta.env;
+
+  return DEV ? devMode : prodMode;
+}
+
+const ENDPOINTS = {
+  techs: '/technologies/all',
+  projects: '/projects/all'
+}
+
+
+async function api(path: string) {
+  return await fetch(`${getBaseUrl()}${path}`)
     .then(res => res.json());
 }
 
 async function fetchTechnologies(callback: ApiResponse<Technology>) {
-  const data = await api('/mock/technologies.json');
+  const data = await api(ENDPOINTS.techs);
   callback(data.technologies);
 }
 
 async function fetchProjects(callback: ApiResponse<Project>) {
-  const data = await api('/mock/projects.json');
+  const data = await api(ENDPOINTS.projects);
   callback(data.projects);
 }
+
 
 export const Api = {
   fetchTechnologies,
