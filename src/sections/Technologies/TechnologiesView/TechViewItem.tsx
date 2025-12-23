@@ -16,7 +16,7 @@ export function TechViewItem(props: TechViewItemProps) {
 
   function calculatePercentOfUse() {
     const totalProjects = projectProvider.getTotal();
-    const appearances = projectProvider.getAllByTech(tech).length;
+    const appearances = projectProvider.getProjectsByTech(tech).length;
 
     return Math.round(appearances / totalProjects * 100);
   }
@@ -39,7 +39,7 @@ export function TechViewItem(props: TechViewItemProps) {
     >
 
       <div className="flex w-full gap-5 mb-2 ">
-        <img className="size-10" src={tech.iconUrl} alt={tech.name} />
+        <img className="size-10" src={tech.logoUrl} alt={tech.name} />
         <p className="text-white text-lg">{tech.name}</p>
         <div className="ml-auto items-center flex gap-1">
           {percentOfUse === 100 && (

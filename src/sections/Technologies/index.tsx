@@ -11,6 +11,8 @@ export function TechnologiesSection() {
   const [selectedTech, setSelectedTech] = useState<Technology>();
 
   function handleSelection(tech: Technology) {
+    console.log(tech);
+    
     setSelectedTech(tech);
   }
 

@@ -4,15 +4,15 @@ import { useLanguage } from "@hooks/useLanguage";
 import { ProjectsContext } from "@providers/ProjectProvider";
 import { ColoredLabel } from "@components/ColoredLabel";
 import { List } from "@components/List";
-import { CircleSmall, Link } from "lucide-react";
+import { Link } from "lucide-react";
 
 interface TechnologyDetailsProps {
   technology: Technology;
 }
 
 export function TechnologyDetails(props: TechnologyDetailsProps) {
-  const { projects, skills } = useLanguage().content.tech.details;
-  const { getAllByTech } = useContext(ProjectsContext);
+  const { projects } = useLanguage().content.tech.details;
+  const { getProjectsByTech  } = useContext(ProjectsContext);
 
   return (
     <article
@@ -24,23 +24,13 @@ export function TechnologyDetails(props: TechnologyDetailsProps) {
       p-4
     ">
       <h3 className="text-xl text-white mb-4 size-10 flex gap-4 items-center">
-        <img src={props.technology.iconUrl} alt="" />
-        {props.technology.name}
+        <img src={props.technology.logoUrl} alt="" />
+        <p>{props.technology.name}</p>
       </h3>
 
-      <p className="mb-2 text-sm">{props.technology.description}</p>
+      <p className="mb-2 text-sm">{props.technology.desc}</p>
 
-      <div>
-        <ColoredLabel
-          isBackend={props.technology.isBackend}
-          textSize="text-base">
-          {skills}
-        </ColoredLabel>
-        <List
-          items={props.technology.skills}
-          icon={<CircleSmall size={14} />}
-        />
-      </div>
+
 
       <div className="mt-4">
         <ColoredLabel
@@ -49,7 +39,7 @@ export function TechnologyDetails(props: TechnologyDetailsProps) {
           {projects}
         </ColoredLabel>
         <List
-          items={getAllByTech(props.technology)}
+          items={getProjectsByTech(props.technology)}
           icon={<Link size={14} />}
           useLink
           linkKeyname="deploy"

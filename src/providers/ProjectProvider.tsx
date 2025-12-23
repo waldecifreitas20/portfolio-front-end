@@ -6,8 +6,8 @@ import type { Technology } from "@/types/Technology";
 export const ProjectsContext = createContext({
   getProjects: () => [] as Array<Project>,
   getTotal: () => Number(0),
-  getByTech: (_: Technology) => ({} as Project | undefined),
-  getAllByTech: (_: Technology) => ([] as Array<Project>),
+  getProjectByTech: (_: Technology) => ({} as Project | undefined),
+  getProjectsByTech: (_: Technology) => ([] as Array<Project>),
 });
 
 export function ProjectProvider(props: PropsWithChildren) {
@@ -26,7 +26,7 @@ export function ProjectProvider(props: PropsWithChildren) {
     return projects.length;
   }
 
-  function getAllByTech(tech: Technology) {
+  function getProjectsByTech(tech: Technology) {
     return projects.filter(project => {
       return project
         .technologies
@@ -34,7 +34,7 @@ export function ProjectProvider(props: PropsWithChildren) {
     });
   }
 
-  function getByTech(tech: Technology) {
+  function getProjectByTech(tech: Technology) {
     return projects.find(project => {
       return project
         .technologies
@@ -47,8 +47,8 @@ export function ProjectProvider(props: PropsWithChildren) {
     <ProjectsContext.Provider value={{
       getProjects,
       getTotal,
-      getByTech,
-      getAllByTech,
+      getProjectByTech,
+      getProjectsByTech,
     }}>
       {props.children}
     </ProjectsContext.Provider>
