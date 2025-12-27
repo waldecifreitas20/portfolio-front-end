@@ -18,20 +18,20 @@ export function ProjectCard(props: ProjectCardProps) {
   const { project, onClickSeeMore } = props;
 
   function handleClick() {
-    onClickSeeMore(project)
+    onClickSeeMore(project);
   }
 
   return (
     <Card enableHover style={`relative z-0  group/card`}>
       <a
-        href={project.deploy}
+        href={project.deployUrl}
         target="_blank"
         className="
         w-full h-50 
         relative rounded-lg 
         block overflow-hidden
         ">
-        <img className="object-cover block min-h-50" src={project.previewUrl} alt={project.name} />
+        <img className="object-cover block min-h-50" src={project.thumbnailUrl} alt={project.name} />
         <div
           className="
           size-full 
