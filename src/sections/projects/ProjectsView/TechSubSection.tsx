@@ -24,7 +24,7 @@ export function TechSubsection(props: TechSubsectionProps) {
               border border-white/10 
               w-fit rounded-md
               "
-              style={{ color: tech.color }}>{tech.name}</p>;
+              style={{ color: tech.hexColor }}>{tech.name}</p>;
           })
       }</ul>
     </div>

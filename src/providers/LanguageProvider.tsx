@@ -10,7 +10,7 @@ const LANGUAGES = {
 
 export const LanguageContext = createContext({
   getCurrent: () => 'en' as Language,
-  switchTo: (lang: Language) => { },
+  switchTo: (_lang: Language) => { },
   languages: { ...LANGUAGES }
 });
 
