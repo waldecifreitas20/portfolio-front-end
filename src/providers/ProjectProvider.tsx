@@ -2,14 +2,14 @@ import { createContext, useEffect, useState, type PropsWithChildren } from "reac
 import { Api } from "@/api/api";
 import type { Project } from "@/types/Project";
 import type { Technology } from "@/types/Technology";
-import type { DualLanguageField } from "@/types/DualLanguagueField";
+import type { DualLanguageField } from "../types/DualLanguageField";
 
 export const ProjectsContext = createContext({
   getProjects: () => [] as Array<Project>,
   getTotal: () => Number(0),
   getProjectByTech: (_: Technology) => ({} as Project | undefined),
   getProjectsByTech: (_: Technology) => ([] as Array<Project>),
-  getSkills: (project: Project) => ([] as Array<DualLanguageField>),
+  getSkills: (_project: Project) => ([] as Array<DualLanguageField>),
 });
 
 export function ProjectProvider(props: PropsWithChildren) {

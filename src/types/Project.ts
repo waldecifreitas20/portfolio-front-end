@@ -1,4 +1,4 @@
-import type { DualLanguageField } from "./DualLanguagueField";
+import type { DualLanguageField } from "./DualLanguageField";
 import type { Technology } from "./Technology";
 
 export type Project = {
