@@ -1,3 +1,5 @@
+import type { DualLanguageField } from "./DualLanguagueField"
+
 export type Technology = {
   id: string,
   name: string,
@@ -8,6 +10,7 @@ export type Technology = {
   logoUrl: string,
   isBackend: boolean,
   isFrontend: boolean,
+  skills: Array<DualLanguageField>
 }
 
 

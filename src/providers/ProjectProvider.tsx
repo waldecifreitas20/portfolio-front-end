@@ -2,12 +2,14 @@ import { createContext, useEffect, useState, type PropsWithChildren } from "reac
 import { Api } from "@/api/api";
 import type { Project } from "@/types/Project";
 import type { Technology } from "@/types/Technology";
+import type { DualLanguageField } from "@/types/DualLanguagueField";
 
 export const ProjectsContext = createContext({
   getProjects: () => [] as Array<Project>,
   getTotal: () => Number(0),
   getProjectByTech: (_: Technology) => ({} as Project | undefined),
   getProjectsByTech: (_: Technology) => ([] as Array<Project>),
+  getSkills: (project: Project) => ([] as Array<DualLanguageField>),
 });
 
 export function ProjectProvider(props: PropsWithChildren) {
@@ -44,6 +46,18 @@ export function ProjectProvider(props: PropsWithChildren) {
     });
   }
 
+  function getSkills(project: Project) {
+    const skillsSet = new Set<DualLanguageField>();
+
+    project.technologies.forEach(tech => {
+      tech.skills.forEach(skill => {
+        skillsSet.add(skill);
+      });
+    });
+
+    return Array.from(skillsSet);
+  }
+
 
   return (
     <ProjectsContext.Provider value={{
@@ -51,6 +65,7 @@ export function ProjectProvider(props: PropsWithChildren) {
       getTotal,
       getProjectByTech,
       getProjectsByTech,
+      getSkills
     }}>
       {props.children}
     </ProjectsContext.Provider>

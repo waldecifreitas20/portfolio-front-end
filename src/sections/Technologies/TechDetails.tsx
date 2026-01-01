@@ -15,16 +15,28 @@ export function TechnologyDetails(props: TechnologyDetailsProps) {
   const { content, getActiveLanguage } = useLanguage();
   const { projects: projectSection, skills: skillsSection } = content.tech.details;
 
-  const { getProjectsByTech, } = useContext(ProjectsContext);
+  const { getSkills, getProjectsByTech } = useContext(ProjectsContext);
   const projectsNames = getProjects();
-  const skills = getSkills();
+  const skills = getTechSkills();
 
 
 
-  function getSkills() {
-    const projects = getProjectsByTech(props.technology);
-    const _skills = [...new Set(projects.map(project => project.skills)).values()][0];
-    return _skills.map((skill: { pt: string, en: string }) => skill[getActiveLanguage()])
+  function getTechSkills() {
+    const ptSkills = new Set<string>();
+    const enSkills = new Set<string>();
+
+    getProjectsByTech(props.technology)
+      .forEach(project => {
+        getSkills(project).forEach(skill => {
+          ptSkills.add(skill.pt);
+          enSkills.add(skill.en);
+        });
+      });
+
+    return {
+      pt: Array.from(ptSkills),
+      en: Array.from(enSkills),
+    }
   }
 
   function getProjects() {
@@ -55,7 +67,7 @@ export function TechnologyDetails(props: TechnologyDetailsProps) {
           {skillsSection}
         </ColoredLabel>
         <List
-          items={skills}
+          items={skills[getActiveLanguage()]}
           icon={<Link size={14} />}
           useLink
           linkKeyname="deploy"

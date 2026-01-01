@@ -1,3 +1,4 @@
+import type { DualLanguageField } from "./DualLanguagueField";
 import type { Technology } from "./Technology";
 
 export type Project = {
@@ -8,12 +9,5 @@ export type Project = {
   repositoryUrl: string,
   thumbnailUrl: string,
   technologies: Array<Technology>,
-  skills: Array<{
-    en: string,
-    pt: string,
-  }>
-  description: {
-    en: string,
-    pt: string,
-  },
+  description: DualLanguageField,
 }
